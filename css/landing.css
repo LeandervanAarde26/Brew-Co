@@ -1,0 +1,22 @@
+
+nav{
+    padding: 1%;
+}
+
+.row-1{
+    background-image: url("../Assets/taps-1.jpg");
+    background-position: center;
+    height: 90vh;
+    background-size: cover;
+}
+
+.about{
+    background-color: #EDDDC6 ;
+    height: 60%;
+    margin-top: 18.2%;
+}
+
+.logo-head{
+    height: 60%;
+    margin-top: 15.2%;
+}
