@@ -28,3 +28,20 @@
 }
 
 
+.navbar{
+    background-color: #ffffff10 !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+}
+
+.about,.suggestions,.services{
+    background-color: #edddc6de;
+}
+
+.about{
+    height: 70vh;
+}
+
+.services,.suggestions{
+    height: 90vh;
+}
