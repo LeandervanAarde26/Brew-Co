@@ -22,62 +22,146 @@
 <body>
 	
 	<div class="container-fluid">
-      <!-- Navbar ends -->
 		<div class="row row-1">
       <nav class="navbar navbar-expand-lg navbar-dark sticky-top " id="navbar">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"> <img src="/Assets/Logo-white.svg" class="me-5" alt="" height="80"> </a>
+          <a class="navbar-brand" href="index.html"> <img src="/Assets/Logo-white.svg" class="me-5" alt="" height="80"> </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item"> <a class="nav-link disabled active" href="index.html" tabindex="-1" aria-disabled="true">Home</a> </li>
+              <li class="nav-item"> <a class="nav-link " aria-current="page" href="pages/breweries.html">Breweries</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="pages/contact.html">Contact</a> </li>
 
-              <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li>
-              <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>
-              <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-
-                </ul>
-              </li>
-              <li class="nav-item"> <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> </li>
             </ul> <!--navbar list end-->
           </div> <!--collapse navbar end here-->
         </div> <!--Container fluid for nav ends-->
       </nav>
       <!-- Navbar ends -->
+
+
 			<!--big screen row-->
-			  <div class="col-12" style="height: 7.1vh;"></div>
+		<div class="col-12" style="height: 7.1vh;"></div>
 			<!--This will act as a Margin-->
-			  <div class="col-6 d-none d-lg-block about "></div>
-		  	<div class="col-6 offset-3 col-lg-6  offset-lg-0"> <img src="/Assets/Logo-white.svg" class="offset-lg-4 img-fluid" alt="Brew Co. logo"> </div>
+
+		<div class="col-6 d-none d-lg-block about  ">
+			<h2 class="text-center">ABOUT</h2>
+
+			<p class="text-center mt-5">
+					Brew Co. is an online only based platform that finds the best Breweries around the USA, whether you want to go on a beer-trip or just looking to find a good bar for the night out.
+		
+			</p>
+
+		</div> <!--about for big screens-->
+
+			  
+		<div class="col-6 offset-3 col-lg-6  offset-lg-0"> <img src="/Assets/Logo-white.svg" class="offset-lg-4 img-fluid" alt="Brew Co. logo"> </div>
 		</div>
+
+
 		<!-- Header row for lg devices ends here -->
-		<div class="row sm-color-row d-block d-lg-none"> </div>
+		<div class="row sm-color-row d-block d-lg-none "> 
+
+			<h2 class="text-center">ABOUT</h2>
+
+			<p class="text-center mt-1 mt-lg-5">
+					Brew Co. is an online only based platform that finds the best Breweries around the USA, whether you want to go on a beer-trip or just looking to find a good bar for the night out.
+				
+			</p>
+			
+		</div>
 		<!-- small devices about row ends here -->
+
 
 		<!-- second row for images here (Barrel Image) -->
 		<div class="row row-2">
 			<!--big screen row-->
-			  <div class="col-6 d-none d-lg-block offset-6 services "></div>
+			  <div class="col-6 d-none d-lg-block offset-6 services  p-lg-4">
+				<h2 class="text-center">WHAT WE DO</h2>
+
+				<div class="col-4 offset-4 d-none d-lg-block "> <!--Location icon goes here-->
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+					  </svg> <!--location icon-->
+
+				</div>
+
+				<p class="text-center mt-5">
+					Brew Co. uses your location to find the best Breweries near you, providing clear details on where it is and what kind of brewery it is. We can also help you find a Brewery in a location of your choosing, giving you the opportunity to experience the best breweries!
+					<br>
+					<a class="dropdown-item" href="#"><p class="text-center">Find Breweries</p></a>
+				</p>
+			  </div>
 		</div>
 		<!-- Barel image row ends here -->
+
+
 		<!-- Small devices row -->
-		<div class="row sm-color-row d-block d-lg-none"> </div>
+		<div class="row sm-color-row d-block d-lg-none"> 
+
+			
+				<h2 class="text-center">WHAT WE DO</h2>
+
+				<div class="col-4 offset-4  "> <!--Location icon goes here-->
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+					  </svg> <!--location icon-->
+
+				</div>
+
+				<p class="text-center mt-3">
+					Brew Co. uses your location to find the best Breweries near you, providing clear details on where it is and what kind of brewery it is. We can also help you find a Brewery in a location of your choosing, giving you the opportunity to experience the best breweries!
+					<br>
+					<a class="dropdown-item" href="#"><p class="text-center">Find Breweries</p></a>
+				</p>
+			 
+
+		</div>
 		<!-- small devices about row ends here -->
+
+
 		<!-- Beer glass row starts here -->
 		<div class="row row-3">
-			<div class="col-6 d-none d-lg-block suggestions"></div>
+			<div class="col-6 d-none d-lg-block suggestions">
+
+				<h2 class="text-center">SUGGESTIONS?</h2>
+
+				<div class="col-4 offset-4  "> <!--Location icon goes here-->
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+					  </svg> <!--suggestions icon-->
+
+				</div>
+
+				<p class="text-center mt-3">
+					If you have any feedback on Brew Co. please do leave us a message on our form! Think we missed a brewery that you think is fantastic? Let us know
+					<br>
+					<a class="dropdown-item" href="#"><p class="text-center">Feedback form</p></a>
+				</p>
+
+			</div> <!--content container for suggestions ends here-->
 		</div>
 		<!-- Beer glass image row ends here -->
+
+
 		<!-- Small devices row -->
-		<div class="row sm-color-row d-block d-lg-none"> </div>
+		<div class="row sm-color-row d-block d-lg-none">
+			<div class="col-4 offset-4  "> <!--Location icon goes here-->
+				<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+				  </svg> <!--suggestions icon-->
+
+			</div>
+
+			<p class="text-center mt-3">
+				If you have any feedback on Brew Co. please do leave us a message on our form! Think we missed a brewery that you think is fantastic? Let us know
+				<br>
+				<a class="dropdown-item" href="#"><p class="text-center">Feedback form</p></a>
+			</p>	
+		
+		</div>
 		<!-- small devices about row ends here -->
 	</div>
 	<!-- Script sources -->
