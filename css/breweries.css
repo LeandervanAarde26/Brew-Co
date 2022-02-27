@@ -1,0 +1,17 @@
+.header-row{
+    background-image: url("../Assets/tap-2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.breweries{
+
+    background-color: #EDDDC6;
+    height: 300px;
+}
+
+.btn{
+    border: 6px solid  #CF9239 ;
+
+}
+

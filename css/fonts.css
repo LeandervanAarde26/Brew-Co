@@ -1,8 +1,29 @@
+h1{
+    font-family: 'Anton', sans-serif;
+    margin-top: 10%;
+    font-weight: 400;
+    font-size: 42pt;
+}
+
+.find-brew{
+    color: #CF9239;
+}
+
+
 h2{
     font-family: 'Anton', sans-serif;
     margin-top: 10%;
     font-weight: 400;
     font-size: 35pt;
+}
+
+
+
+
+h5{
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 22pt;
 }
 
 p{
