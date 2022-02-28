@@ -15,3 +15,26 @@
 
 }
 
+.brewery-type,.search{
+    border: 6px solid  #CF9239 ;
+    height: 50px;
+    background-color: #050B12;
+    color: white;
+}
+
+.btn-outline-secondary:hover{
+    background-color: #CF9239 !important;
+    border: 6px solid  #CF9239 ;
+}
+
+.search-container{
+    background-color: #050B12 ;
+}
+
+.map{
+    background-color: yellow;
+    height: 600px
+}
+
+/* Change height with @media */
+
