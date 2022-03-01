@@ -17,11 +17,23 @@ h2{
     font-size: 35pt;
 }
 
+h3{
+    font-family: 'Anton', sans-serif;
+
+    font-weight: 400;
+    font-size: 30pt;
+    color: white;
+}
+
 
 h5{
     font-family: 'Anton', sans-serif;
     font-weight: 400;
     font-size: 22pt;
+}
+
+.brew-info{
+    color: white;
 }
 
 .location{
@@ -38,5 +50,9 @@ select, form{
     font-size: 13pt;
     font-weight: 500;  
     color: white !important;
+}
+
+.foot-text{
+    color: #CF9239 !important;
 }
 

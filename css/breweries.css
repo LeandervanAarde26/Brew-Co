@@ -38,3 +38,22 @@
 
 /* Change height with @media */
 
+
+.results,.footer{
+    background-color: #050B12
+}
+
+.result{
+    height: 300px;
+    background-image: url("../Assets/Barrels.jpg");
+    background-position: center;
+    background-size: cover; 
+}
+
+.footer{
+    height: 150px;
+}
+
+
+
+
