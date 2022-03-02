@@ -24,17 +24,16 @@ $(".brewery-type").on("change" , () =>{
     // console.log(result[1].brewery_type);
 
     for(var i =0; i < result.length; i++){
+
         console.log(result[i]);
         
-        if( j === result[i].brewery_type ){
 
-            places = [result[i]];
 
 
 
             // console.log(result[i].brewery_type);
 
-            let Display = `
+            var Display = `
 
             <div class="row results p-3">
             
@@ -52,15 +51,16 @@ $(".brewery-type").on("change" , () =>{
             
             
             `;
+
+
+
               
  
-            //     $(".results").empty();
+              
             
-            // $(".results").append(Display);
+            $(".results").append(Display);
 
 
-
-        }
 
     }
 
