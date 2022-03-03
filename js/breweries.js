@@ -47,14 +47,53 @@ $(document).ready(function(){
     }); //on change function end
 
 
-//Search by state
-    // $(".state").on("keypress", () =>{
-    //     const states = ['Alabama','Alaska','American Samoa','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','District of Columbia','Federated States of Micronesia','Florida','Georgia','Guam','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Marshall Islands','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Northern Mariana Islands','Ohio','Oklahoma','Oregon','Palau','Pennsylvania','Puerto Rico','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virgin Island','Virginia','Washington','West Virginia','Wisconsin','Wyoming'];
-    //     let StateValue = $(".state").val();  
-    //     var filteredstates = states;
-        
+// Search by state
+    $(".state").on("input", () =>{
+        const states = ['Alabama','Alaska','American Samoa','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','District of Columbia','Federated States of Micronesia','Florida','Georgia','Guam','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Marshall Islands','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Northern Mariana Islands','Ohio','Oklahoma','Oregon','Palau','Pennsylvania','Puerto Rico','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virgin Island','Virginia','Washington','West Virginia','Wisconsin','Wyoming'];
+        let StateValue = $(".state").val();  
+        const BrewState = 'https://api.openbrewerydb.org/breweries?by_state='+StateValue;
 
-    // });
+        $.getJSON(BrewState, function(result){
+
+            for(var i = 0; i < result.length; i++){
+
+                // for( var j = 0; j < states.length; j++){
+                //     $(states[j]).toLowerCase().replace(/\s/g, "_");
+                    
+                // }
+
+                // console.log(StateValue);
+                // console.log(result[i].state);
+
+
+                var OutPut = result[i].state;
+                Output = OutPut.toLowerCase();
+                var StateVLower = StateValue;
+                StateVLower  = StateVLower.toLowerCase();
+                // console.log(OutPut);
+
+                if( OutPut == StateVLower){
+                  console.log(result[i])
+
+                } 
+
+
+            }
+
+
+
+
+
+
+        
+      
+
+       
+        // var filteredstates = states;
+        //hello
+        //hell
+
+    });
 
 
     
@@ -64,29 +103,4 @@ $(document).ready(function(){
     
     
 }); //Document ready function ends here
-    
-    
-    // ASK LEO 
-    
-    //  const states = ['Alabama','Alaska','American Samoa','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','District of Columbia','Federated States of Micronesia','Florida','Georgia','Guam','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Marshall Islands','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Northern Mariana Islands','Ohio','Oklahoma','Oregon','Palau','Pennsylvania','Puerto Rico','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virgin Island','Virginia','Washington','West Virginia','Wisconsin','Wyoming'];
-    
-    // $('.state').on("keypress", (event) =>{
-    //     var filterstates = states.filter((state) =>{
-    //             return state.toLowerCase().startsWith($(event.currentTarget).val().toLowerCase());
-    
-    //     }); 
-    //     if(states.includes($(event.currentTarget).val())){
-    //         i = $(event.currentTarget).val().replace(/\s/g, "_").toLowerCase();
-            
-    //         let brewState = 'https://api.openbrewerydb.org/breweries?by_state='+i+'';
-     
-    //               $.getJSON(brewState, function(result3){
-    //                   console.log('hello');
-    //                   console.log(result3);
-      
-             
-    //        });
-    //     }
-    
-    
-    // });
+});  
