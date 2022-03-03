@@ -27,13 +27,12 @@ $(document).ready(function(){
                         <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
                     <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info mt-3">Website</h5></a>
                         <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
-                    
                     `;
     
                       console.log(result[i]);
     
-            
-                     $(".results").append(Display);
+                      $(".results").append(Display);
+                    
     
     
     
@@ -49,36 +48,45 @@ $(document).ready(function(){
 
 // Search by state
     $(".state").on("input", () =>{
+
+        $(".results").empty();
         const states = ['Alabama','Alaska','American Samoa','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','District of Columbia','Federated States of Micronesia','Florida','Georgia','Guam','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Marshall Islands','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Northern Mariana Islands','Ohio','Oklahoma','Oregon','Palau','Pennsylvania','Puerto Rico','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virgin Island','Virginia','Washington','West Virginia','Wisconsin','Wyoming'];
         let StateValue = $(".state").val();  
         const BrewState = 'https://api.openbrewerydb.org/breweries?by_state='+StateValue;
 
         $.getJSON(BrewState, function(result){
 
+
+
             for(var i = 0; i < result.length; i++){
 
-                // for( var j = 0; j < states.length; j++){
-                //     $(states[j]).toLowerCase().replace(/\s/g, "_");
+                var Display = `
+        
+                <div class="col-12 result p-4 mt-4 mb-4">
+                
+                    <h3 class="text-center">`+result[i].name+`</h3>
+                    <h5 class="text-center brew-info mt-3">`+result[i].state+`, `+result[i].city+`</h5>
+                    <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
+                    <h5 class="text-center brew-info mt-3">`+result[i].brewery_type+` brewery</h5>
+                <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info mt-3">Website</h5></a>
+                    <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
+                `;
+
+                var match = result[i].state.toLowerCase().match(StateValue);
+
+                
+                if (match.length != 0 ) {
+                    // console.log(match);
+                    console.log(result[i].state);
+                     
+                    $(".results").append(Display);
+
                     
-                // }
 
-                // console.log(StateValue);
-                // console.log(result[i].state);
-
-
-                var OutPut = result[i].state;
-                Output = OutPut.toLowerCase();
-                var StateVLower = StateValue;
-                StateVLower  = StateVLower.toLowerCase();
-                // console.log(OutPut);
-
-                if( OutPut == StateVLower){
-                  console.log(result[i])
-
-                } 
-
-
+                }
             }
+    });
+
 
 
 
@@ -103,4 +111,4 @@ $(document).ready(function(){
     
     
 }); //Document ready function ends here
-});  
+ 
