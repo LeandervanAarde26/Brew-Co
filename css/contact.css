@@ -1,0 +1,29 @@
+.index-row{
+
+    background-image: url("../Assets/Beer-pur.jpg");
+    background-size: cover;
+    background-position: top;
+
+}
+
+.information-box{
+    height: 46vh;
+    background-color: #CF9239;
+}
+
+.form-row{
+    height: 90vh;
+    background-color: #050B12 ;
+}
+
+.form-container{
+    background-color: #3d3d3d93 !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+}
+
+
+.submit{
+    border: 6px solid  #CF9239 ;
+
+}

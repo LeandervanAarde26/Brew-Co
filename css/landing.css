@@ -28,11 +28,7 @@
 }
 
 
-#navbar{
-    background-color: #3d3d3d93 !important;
-    backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important;
-}
+
 
 .about,.suggestions,.services{
     background-color: #edddc6de;

@@ -17,9 +17,76 @@
     <!-- CSS folders -->
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/fonts.css">
 </head>
 <body>
-    
+    <div class="container-fluid">
+        <div class="row index-row">
+            <nav class="navbar navbar-expand-lg navbar-dark sticky-top " id="navbar">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html"> <img src="/Assets/Logo-white.svg" class="me-5" alt="" height="80"> </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"> <a class="nav-link " href="../index.html" tabindex="-1" >Home</a> </li>
+                      <li class="nav-item"> <a class="nav-link " aria-current="page" href="../pages/breweries.html">Breweries</a> </li>
+                      <li class="nav-item"> <a class="nav-link active" href="../pages/contact.html"  aria-disabled="true">Contact</a> </li>
+        
+                    </ul> <!--navbar list end-->
+                  </div> <!--collapse navbar end here-->
+                </div> <!--Container fluid for nav ends-->
+            </nav>
+
+            <div class="col-0 col-lg-6 offset-lg-3 information-box d-none d-lg-block">
+                <h1 class="text-center">CONTACT</h1>
+                <p class="p-3 text-center mt-5">If yo have any concerns, feedback or suggestions you would like to share, please leave Brew-Co a suggestion and we will get to your message as soon as possible.</p>
+
+            </div> <!--information box ends here-->
+        </div> <!--Row ends here-->
+
+        <div class="row sm-information-box">
+            
+            <div class="col-12 information-box d-block d-lg-none">
+                <h1 class="text-center">CONTACT</h1>
+                <p class="p-3 text-center mt-5">If yo have any concerns, feedback or suggestions you would like to share, please leave Brew-Co a suggestion and we will get to your message as soon as possible.</p>
+
+            </div> <!--information box ends here for sm-->
+
+        </div>
+        <div class="row form-row">
+            
+            <div class="col-12 col-lg-6 offset-lg-3 form-container mt-1">
+            <form action="POST">
+                <div class="form-group mt-5">
+                    <label class="ms-5" for="name">Name</label>
+                    <br>
+                    <input class="col-6 ms-5" type="text" name="name" id="name">
+            </div>
+            <div class="form-group mt-4">
+                <label class="ms-5" for="email">Email</label>
+                <br>
+                <input class="col-6 ms-5" type="email" name="email" id="email">
+            </div>
+            <div class="form-group mt-4">
+                <label class="ms-5" for="message ">Message</label>
+                <textarea class="col-10 offset-1 ms-5" name="" id="" rows="10"></textarea>
+            </div>
+            </form>
+
+            <div class="col-12" style="height:2vh;"></div> <!--this will work as a margin-->
+
+            <div class="col-6 offset-3 submit">
+                    <h5 class="submit-btn text-center">SUBMIT</h5>
+            </div>
+            
+            
+            
+            </div>
+
+
+        </div>
+
+    </div>
 
      <!-- Script sources -->
      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
