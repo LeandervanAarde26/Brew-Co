@@ -91,20 +91,56 @@ $(document).ready(function(){
     });
 
 
+    });
 
+    // Get brewery by name
 
+    $(".name").on("input", () =>{
 
-
-
+        $(".results").empty();
+        let NameValue = $(".name").val();  
         
-      
+        const BrewName = 'https://api.openbrewerydb.org/breweries/search?query=dog'+ NameValue;
 
-       
-        // var filteredstates = states;
-        //hello
-        //hell
+        $.getJSON(BrewName, function(result){
+
+
+
+            for(var i = 0; i < result.length; i++){
+
+                let NameValue = NameValue.toLowerCase();
+
+                var Display = `
+        
+                <div class="col-12 result p-4 mt-4 mb-4">
+                
+                    <h3 class="text-center">`+result[i].name+`</h3>
+                    <h5 class="text-center brew-info mt-3">`+result[i].state+`, `+result[i].city+`</h5>
+                    <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
+                    <h5 class="text-center brew-info mt-3">`+result[i].brewery_type+` brewery</h5>
+                <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info mt-3">Website</h5></a>
+                    <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
+                `;
+
+                var match = result[i].name.toLowerCase().match(StateValueLow);
+
+                
+                if (match.length != 0 ) {
+                    // console.log(match);
+                    console.log(result[i].name);
+                     
+                    $(".results").append(Display);
+
+                    
+
+                }
+            }
+    });
+
 
     });
+
+
 
 
     
