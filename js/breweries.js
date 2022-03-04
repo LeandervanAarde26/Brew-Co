@@ -18,28 +18,110 @@ $(document).ready(function(){
         // Loop through array 
              for(var i = 0; i < result.length; i++){
                 // HTML element
-                  var Display = `
+
+                    if( result[i].phone === null){
+                       let Display = `
+        
+                        <div class="col-12 result p-4 mt-4 mb-4">
+                        
+                            <h3 class="text-center">`+result[i].name+`</h3>
+                            <h5 class="text-center brew-info mt-3">`+result[i].state+`, `+result[i].city+`</h5>
+                            <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
+                        <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info mt-3">Website</h5></a>
+                            
+                        `;
+                              $(".results").append(Display);
+
+
+                    } else if(result[i].street === null){
+
+                       let Display = `
+        
+                        <div class="col-12 result p-4 mt-4 mb-4">
+                        
+                            <h3 class="text-center">`+result[i].name+`</h3>
+                            <h5 class="text-center brew-info mt-3">`+result[i].state+`, `+result[i].city+`</h5>
+                        <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info mt-3">Website</h5></a>
+                            <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
+                        `;
+
+                        $(".results").append(Display);
+                        
+                    } else if( result[i].state === null){
+
+                      let  Display = `
         
                     <div class="col-12 result p-4 mt-4 mb-4">
                     
                         <h3 class="text-center">`+result[i].name+`</h3>
-                        <h5 class="text-center brew-info mt-3">`+result[i].state+`, `+result[i].city+`</h5>
+                        <h5 class="text-center brew-info mt-3">`+result[i].city+`</h5>
                         <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
                     <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info mt-3">Website</h5></a>
                         <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
                     `;
+
+
+
+                        $(".results").append(Display);
+
+
+                    } else if(result[i].city === null){
+
+                       let Display = `
+        
+                        <div class="col-12 result p-4 mt-4 mb-4">
+                        
+                            <h3 class="text-center">`+result[i].name+`</h3>
+                            <h5 class="text-center brew-info mt-3">`+result[i].state+`</h5>
+                            <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
+                        <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info mt-3">Website</h5></a>
+                            <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
+                        `;
     
-                      console.log(result[i]);
-    
-                      $(".results").append(Display);
-                    
     
     
+                            $(".results").append(Display);
+
+                    }  else if(result[i].city === null && result[i].state === null){
+
+                       let Display = `
+        
+                        <div class="col-12 result p-4 mt-4 mb-4">
+                        
+                            <h3 class="text-center">`+result[i].name+`</h3>
+                        <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info mt-3">Website</h5></a>
+                            <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
+                        `;
     
+    
+    
+                            $(".results").append(Display);
+
+                    } else{
+
+                      let  Display = `
+        
+                        <div class="col-12 result p-4 mt-4 mb-4">
+                        
+                            <h3 class="text-center">`+result[i].name+`</h3>
+                            <h5 class="text-center brew-info mt-3">`+result[i].state+`, `+result[i].city+`</h5>
+                            <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
+                        <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info mt-3">Website</h5></a>
+                            <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
+                        `;
+
+                        
+
+                        $(".results").append(Display);
+
+                    } //else 
+
                 // console.log(result[i].brewery_type);
 
     
                }; //for loop end
+
+
     
           }); //getJSON end
         
@@ -63,7 +145,7 @@ $(document).ready(function(){
 
                 let StateValueLow = StateValue.toLowerCase();
 
-                var Display = `
+                let Display = `
         
                 <div class="col-12 result p-4 mt-4 mb-4">
                 
@@ -86,7 +168,7 @@ $(document).ready(function(){
 
                     
 
-                }
+                } 
             }
     });
 
@@ -100,7 +182,7 @@ $(document).ready(function(){
         $(".results").empty();
         let NameValue = $(".name").val();  
         
-        const BrewName = 'https://api.openbrewerydb.org/breweries/search?query=dog'+ NameValue;
+        const BrewName = 'https://api.openbrewerydb.org/breweries/search?query='+ NameValue;
 
         $.getJSON(BrewName, function(result){
 
@@ -108,7 +190,7 @@ $(document).ready(function(){
 
             for(var i = 0; i < result.length; i++){
 
-                let NameValue = NameValue.toLowerCase();
+                let NameV = NameValue.toLowerCase();
 
                 var Display = `
         
@@ -122,7 +204,7 @@ $(document).ready(function(){
                     <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
                 `;
 
-                var match = result[i].name.toLowerCase().match(StateValueLow);
+                var match = result[i].name.toLowerCase().match(NameV);
 
                 
                 if (match.length != 0 ) {
