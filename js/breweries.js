@@ -97,7 +97,23 @@ $(document).ready(function(){
     
                             $(".results").append(Display);
 
-                    } else{
+                    }else if(result[i].website_url == null){
+
+                        let  Display = `
+          
+                          <div class="col-12 result p-4 mt-4 mb-4">
+                          
+                              <h3 class="text-center">`+result[i].name+`</h3>
+                              <h5 class="text-center brew-info mt-3">`+result[i].state+`, `+result[i].city+`</h5>
+                              <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
+                              <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
+                          `;
+  
+                          
+  
+                          $(".results").append(Display); 
+                    
+                     } else{
 
                       let  Display = `
         
