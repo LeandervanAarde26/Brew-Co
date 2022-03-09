@@ -24,6 +24,11 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/breweries.css">
     <link rel="stylesheet" href="../css/fonts.css">
+
+	<!-- JQuery CDN -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+	<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyD8ZqiimDxeW9A-SjAEm_wQroAuWHzVQFQ"></script>
 </head>
 <body>
     <div class="container-fluid">
@@ -102,51 +107,19 @@
 
          
             <input class=" col-12 col-lg-3 search-input search name mt-4 ms-0 ms-lg-5" type="text" placeholder="Search.." name="search">
-   
 
 
-        <div class="col-12 col-lg-6 offset-lg-3  locate-btn btn mt-5 mb-5">
-          <h5 class="text-center location">FIND BREWERIES NEAR ME</h5>
-        </div>
-
-        <div class="col-12 col-lg-10 offset-lg-1 map d-none">
-
-             <iframe
-        width="100%" height="100%"
-          style="border:0"
-           loading="lazy"
-             allowfullscreen
-            src="https://www.google.com/maps/embed/v1/place?key=__= ">
-              </iframe>
+        <div class="col-12 col-lg-10 offset-lg-1 map mt-5">
+			<div id="maps" style="height: 100%;">
+			
+			</div>
         </div>
 
       </div><!-- Buttons Container -->
 
       <div class="row results p-3">
 
-        <!-- <div class="col-12 result p-4 mt-4 mb-4">
-
-            <h3 class="text-center">Brewery Name</h3>
-            <h5 class="text-center brew-info mt-3">Address</h5>
-            <h5 class="text-center brew-info mt-3">Brew type</h5>
-            <h5 class="text-center brew-info mt-3">website</h5>
-
-            
-
-        </div> -->
-
-
-        <!-- <div class="col-12 result p-4 mt-4 mb-4">
-
-          <h3 class="text-center">Brewery Name</h3>
-          <h5 class="text-center brew-info mt-3">Address</h5>
-          <h5 class="text-center brew-info mt-3">Brew type</h5>
-          <h5 class="text-center brew-info mt-3">website</h5>
-
-          
-
-      </div> -->
-
+    
 
       </div> <!--Breweries are entered in here-->
 
@@ -165,7 +138,7 @@
     </div> <!--container fluid ends here-->
 
      <!-- Script sources -->
-     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
      <!-- JS links -->
      <script src="../js/main.js"></script>
      <script src="../js/breweries.js"></script>
