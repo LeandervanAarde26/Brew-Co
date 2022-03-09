@@ -49,7 +49,7 @@ a{
     box-shadow: inset 0 0 0 0 #CF9239;
     color: black;
     padding: 10px;
-    transition: color .45s ease-in-out, box-shadow .3s ease-in-out;
+    transition: color .45s ease-in-out, box-shadow .45s ease-in-out;
 }
 
 a:hover{
