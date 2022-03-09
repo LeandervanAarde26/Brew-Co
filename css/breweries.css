@@ -11,8 +11,20 @@
 }
 
 .btn{
-    border: 6px solid  #CF9239 ;
+    text-decoration: none;
+   
+    /* color: black;
+    transition: 0.2s ; */
+    box-shadow: inset 0 0 0 0 #CF9239;
+    color: black;
+    padding: 10px;
+    transition: color .7s ease-in-out, box-shadow .3s ease-in-out;
+}
 
+.btn:hover{
+    transform: scale(1.1);
+    box-shadow: inset 800px 0 0 0 #CF9239;
+    color: white; 
 }
 
 .brewery-type,.search{
@@ -21,6 +33,8 @@
     background-color: #050B12;
     color: white;
 }
+
+
 
 .btn-outline-secondary:hover{
     background-color: #CF9239 !important;
@@ -53,6 +67,9 @@
 .footer{
     height: 150px;
 }
+
+
+
 
 
 
