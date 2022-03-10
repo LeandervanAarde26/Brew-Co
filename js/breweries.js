@@ -144,7 +144,7 @@ $(document).ready(function(){
                             <h3 class="text-center">`+result[i].name+`</h3>
                             <h5 class="text-center brew-info mt-3">`+result[i].state+`, `+result[i].city+`</h5>
                             <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
-                        <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info mt-3">Go to website</h5></a>
+                            <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info web mt-3">Go to website</h5></a>
                             
                         `;
                               $(".results").append(Display);
@@ -158,7 +158,7 @@ $(document).ready(function(){
                         
                             <h3 class="text-center">`+result[i].name+`</h3>
                             <h5 class="text-center brew-info mt-3">`+result[i].state+`, `+result[i].city+`</h5>
-                        <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info mt-3">Go to website</h5></a>
+                            <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info web mt-3">Go to website</h5></a>
                             <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
                         `;
 
@@ -173,7 +173,7 @@ $(document).ready(function(){
                         <h3 class="text-center">`+result[i].name+`</h3>
                         <h5 class="text-center brew-info mt-3">`+result[i].city+`</h5>
                         <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
-                    <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info mt-3">Go to website</h5></a>
+                        <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info web mt-3">Go to website</h5></a>
                         <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
                     `;
 
@@ -191,7 +191,7 @@ $(document).ready(function(){
                             <h3 class="text-center">`+result[i].name+`</h3>
                             <h5 class="text-center brew-info mt-3">`+result[i].state+`</h5>
                             <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
-                        <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info mt-3">Go to website</h5></a>
+                        <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info web mt-3">Go to website</h5></a>
                             <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
                         `;
     
@@ -206,7 +206,7 @@ $(document).ready(function(){
                         <div class="col-12 result p-4 mt-4 mb-4">
                         
                             <h3 class="text-center">`+result[i].name+`</h3>
-                        <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info mt-3">Go to website</h5></a>
+                            <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info web mt-3">Go to website</h5></a>
                             <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
                         `;
     
@@ -239,7 +239,7 @@ $(document).ready(function(){
                             <h3 class="text-center">`+result[i].name+`</h3>
                             <h5 class="text-center brew-info mt-3">`+result[i].state+`, `+result[i].city+`</h5>
                             <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
-                        <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info mt-3">Go to website</h5></a>
+                            <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info web mt-3">Go to website</h5></a>
                             <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
                         `;
 
@@ -311,7 +311,7 @@ $(document).ready(function(){
                     <h5 class="text-center brew-info mt-3">`+result[i].state+`, `+result[i].city+`</h5>
                     <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
                     <h5 class="text-center brew-info mt-3">`+result[i].brewery_type+` brewery</h5>
-                <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info mt-3">Go to website</h5></a>
+                    <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info web mt-3">Go to website</h5></a>
                     <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
                 `;
 
@@ -377,7 +377,7 @@ $(document).ready(function(){
                     <h5 class="text-center brew-info mt-3">`+result[i].state+`, `+result[i].city+`</h5>
                     <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
                     <h5 class="text-center brew-info mt-3">`+result[i].brewery_type+` brewery</h5>
-                <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info mt-3">Go to website</h5></a>
+                    <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info web mt-3">Go to website</h5></a>
                     <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
                 `;
 
@@ -406,6 +406,3 @@ $(document).ready(function(){
 
     
 }); //Document ready function ends here
-
-
- 

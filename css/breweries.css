@@ -21,6 +21,17 @@
     transition: color .45s ease-in-out, box-shadow .45s ease-in-out;
 }
 
+.web{
+    transition: color .45s ease-in-out, box-shadow .45s ease-in-out;
+
+}
+
+.web:hover{
+    transform: scale(1.1);
+    box-shadow: inset 800px 0 0 0 #CF9239;
+    color: white; 
+}
+
 .btn:hover{
     transform: scale(1.1);
     box-shadow: inset 800px 0 0 0 #CF9239;
@@ -66,6 +77,8 @@
 .footer{
     height: 150px;
 }
+
+
 
 
 
