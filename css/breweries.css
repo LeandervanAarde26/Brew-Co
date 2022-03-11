@@ -78,6 +78,26 @@
     height: 150px;
 }
 
+tr,th{
+    height: 40px !important;
+}
+
+a{
+   color: inherit;
+   text-decoration: underline;
+   font-weight: bold;
+   transition: color .45s ease-in-out, box-shadow .45s ease-in-out;
+   padding: 10px;
+}
+
+a:hover{
+    color: inherit;
+    transform: scale(1.1);
+    box-shadow: inset 150px 0 0 0 #CF9239;
+   
+}
+
+
 
 
 

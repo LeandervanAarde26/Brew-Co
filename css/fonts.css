@@ -60,3 +60,9 @@ select, form{
     color: #CF9239 !important;
 }
 
+td{
+    font-family: 'Outfit', sans-serif;
+    font-size: 13pt;
+
+}
+

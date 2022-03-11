@@ -108,7 +108,7 @@ $(document).ready(function(){
  
     //Find  brewery based on type
     $(".brewery-type").on("change" , () =>{
-        $(".results").empty();
+        $(".result-T").empty();
             //Log the value that the user has entered 
          console.log($(".brewery-type ").val());
         // Value of user in Variable
@@ -136,116 +136,106 @@ $(document).ready(function(){
                 locationArray.push(tempArray);
 
 
-                    if( result[i].phone === null){
-                       let Display = `
-        
-                        <div class="col-12 result p-4 mt-4 mb-4">
-                        
-                            <h3 class="text-center">`+result[i].name+`</h3>
-                            <h5 class="text-center brew-info mt-3">`+result[i].state+`, `+result[i].city+`</h5>
-                            <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
-                            <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info web mt-3">Go to website</h5></a>
-                            
-                        `;
-                              $(".results").append(Display);
+                 if(result[i].street === null){
+                    let  Display = `
+                    
+                    <tr>
+                    <th scope="row">`+result[i].length+`</th>
+                    <td>`+result[i].name+`</td>
+                    <td>`+result[i].state+`, `+result[i].city+`</td>
+                    <td class="d-none d-lg-block">Unkown</td>
+                    <td>`+result[i].brewery_type+`</td>
+                    <td><a href="`+result[i].website_url+`">Go to website</a></td>
+                    </tr>
+                    `;
 
-
-                    } else if(result[i].street === null){
-
-                       let Display = `
-        
-                        <div class="col-12 result p-4 mt-4 mb-4">
-                        
-                            <h3 class="text-center">`+result[i].name+`</h3>
-                            <h5 class="text-center brew-info mt-3">`+result[i].state+`, `+result[i].city+`</h5>
-                            <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info web mt-3">Go to website</h5></a>
-                            <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
-                        `;
-
-                        $(".results").append(Display);
+                        $(".result-T").append(Display);
                         
                     } else if( result[i].state === null){
 
-                      let  Display = `
-        
-                    <div class="col-12 result p-4 mt-4 mb-4">
-                    
-                        <h3 class="text-center">`+result[i].name+`</h3>
-                        <h5 class="text-center brew-info mt-3">`+result[i].city+`</h5>
-                        <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
-                        <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info web mt-3">Go to website</h5></a>
-                        <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
-                    `;
+                        let  Display = `
+                        <tr>
+                        <th scope="row">1</th>
+                        <td>`+result[i].name+`</td>
+                        <td>`+result[i].city+`</td>
+                        <td class="d-none d-lg-block">`+result[i].street+`</td>
+                        <td>`+result[i].brewery_type+`</td>
+                        <td><a href="`+result[i].website_url+`">Go to website</a></td>
+                        </tr>
+                        `;
 
 
 
-                        $(".results").append(Display);
+                        $(".result-T").append(Display);
 
 
                     } else if(result[i].city === null){
 
-                       let Display = `
+                        let  Display = `
         
-                        <div class="col-12 result p-4 mt-4 mb-4">
-                        
-                            <h3 class="text-center">`+result[i].name+`</h3>
-                            <h5 class="text-center brew-info mt-3">`+result[i].state+`</h5>
-                            <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
-                        <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info web mt-3">Go to website</h5></a>
-                            <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
+                        <tr>
+                        <th scope="row">1</th>
+                        <td>`+result[i].name+`</td>
+                        <td>`+result[i].state+`</td>
+                        <td class="d-none d-lg-block">`+result[i].street+`</td>
+                        <td>`+result[i].brewery_type+`</td>
+                        <td><a href="`+result[i].website_url+`">Go to website</a></td>
+                        </tr>
                         `;
     
     
     
-                            $(".results").append(Display);
+                            $(".result-T").append(Display);
 
                     }  else if(result[i].city === null && result[i].state === null){
 
-                       let Display = `
+                        let  Display = `
         
-                        <div class="col-12 result p-4 mt-4 mb-4">
-                        
-                            <h3 class="text-center">`+result[i].name+`</h3>
-                            <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info web mt-3">Go to website</h5></a>
-                            <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
+                        <tr>
+                        <th scope="row">1</th>
+                        <td>`+result[i].name+`</td>
+                        <td>Unknown</td>
+                        <td class="d-none d-lg-block">`+result[i].street+`</td>
+                        <td>`+result[i].brewery_type+`</td>
+                        <td><a href="`+result[i].website_url+`">Go to website</a></td>
+                        </tr>
                         `;
     
     
-    
-                            $(".results").append(Display);
+                            $(".result-T").append(Display);
 
                     }else if(result[i].website_url == null){
 
                         let  Display = `
-          
-                          <div class="col-12 result p-4 mt-4 mb-4">
-                          
-                              <h3 class="text-center">`+result[i].name+`</h3>
-                              <h5 class="text-center brew-info mt-3">`+result[i].state+`, `+result[i].city+`</h5>
-                              <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
-                              <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
-                          `;
+        
+                        <tr>
+                        <th scope="row">1</th>
+                        <td>`+result[i].name+`</td>
+                        <td>`+result[i].state+`, `+result[i].city+`</td>
+                        <td class="d-none d-lg-block">`+result[i].street+`</td>
+                        <td>`+result[i].brewery_type+`</td>
+                        <td>Unknown</a></td>
+                        </tr>
+                        `;
   
-                          
-  
-                          $(".results").append(Display); 
+                          $(".result-T").append(Display); 
                     
                      } else{
 
-                      let  Display = `
+                        let  Display = `
         
-                        <div class="col-12 result p-4 mt-4 mb-4">
-                        
-                            <h3 class="text-center">`+result[i].name+`</h3>
-                            <h5 class="text-center brew-info mt-3">`+result[i].state+`, `+result[i].city+`</h5>
-                            <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
-                            <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info web mt-3">Go to website</h5></a>
-                            <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
+                        <tr>
+                        <th scope="row">1</th>
+                        <td>`+result[i].name+`</td>
+                        <td>`+result[i].state+`, `+result[i].city+`</td>
+                        <td class="d-none d-lg-block">`+result[i].street+`</td>
+                        <td>`+result[i].brewery_type+`</td>
+                        <td><a href="`+result[i].website_url+`">Go to website</a></td>
+                        </tr>
                         `;
-
                         
 
-                        $(".results").append(Display);
+                        $(".result-T").append(Display);
 
                     } //else 
 
@@ -254,7 +244,7 @@ $(document).ready(function(){
     
                }//for loop end
                
-                console.log(positionArray);
+               
 
 
 
@@ -275,7 +265,7 @@ $(document).ready(function(){
 // Search by state
     $(".state").on("input", () =>{
        
-        $(".results").empty();
+        $(".result-T").empty();
         const states = ['Alabama','Alaska','American Samoa','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','District of Columbia','Federated States of Micronesia','Florida','Georgia','Guam','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Marshall Islands','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Northern Mariana Islands','Ohio','Oklahoma','Oregon','Palau','Pennsylvania','Puerto Rico','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virgin Island','Virginia','Washington','West Virginia','Wisconsin','Wyoming'];
         let StateValue = $(".state").val();  
         
@@ -303,30 +293,148 @@ $(document).ready(function(){
 
                 let StateValueLow = StateValue.toLowerCase();
 
-                let Display = `
-        
-                <div class="col-12 result p-4 mt-4 mb-4">
                 
-                    <h3 class="text-center">`+result[i].name+`</h3>
-                    <h5 class="text-center brew-info mt-3">`+result[i].state+`, `+result[i].city+`</h5>
-                    <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
-                    <h5 class="text-center brew-info mt-3">`+result[i].brewery_type+` brewery</h5>
-                    <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info web mt-3">Go to website</h5></a>
-                    <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
-                `;
 
                 var match = result[i].state.toLowerCase().match(StateValueLow);
 
                 
                 if (match.length != 0 ) {
                     // console.log(match);
+
+                    let  Display = `
+        
+                        <tr>
+                        <th scope="row">1</th>
+                        <td>`+result[i].name+`</td>
+                        <td>`+result[i].state+`, `+result[i].city+`</td>
+                        <td class="d-none d-lg-block">`+result[i].street+`</td>
+                        <td>`+result[i].brewery_type+`</td>
+                        <td><a href="`+result[i].website_url+`">Go to website</a></td>
+                        </tr>
+                        `;
                     console.log(result[i].state);
                      
-                    $(".results").append(Display);
+                    $(".result-T").append(Display);
 
                     
+                } else if(result[i].street === null){
+                    let  Display = `
+                    
+                    <tr>
+                    <th scope="row">`+result[i].length+`</th>
+                    <td>`+result[i].name+`</td>
+                    <td>`+result[i].state+`, `+result[i].city+`</td>
+                    <td class="d-none d-lg-block">Unkown</td>
+                    <td>`+result[i].brewery_type+`</td>
+                    <td><a href="`+result[i].website_url+`">Go to website</a></td>
+                    </tr>
+                    `;
 
-                } 
+                        $(".result-T").append(Display);
+                        
+                    } else if( result[i].state === null){
+
+                        let  Display = `
+                        <tr>
+                        <th scope="row">1</th>
+                        <td>`+result[i].name+`</td>
+                        <td>`+result[i].city+`</td>
+                        <td class="d-none d-lg-block">`+result[i].street+`</td>
+                        <td>`+result[i].brewery_type+`</td>
+                        <td><a href="`+result[i].website_url+`">Go to website</a></td>
+                        </tr>
+                        `;
+
+
+
+                        $(".result-T").append(Display);
+
+
+                    } else if(result[i].city === null){
+
+                        let  Display = `
+        
+                        <tr>
+                        <th scope="row">1</th>
+                        <td>`+result[i].name+`</td>
+                        <td>`+result[i].state+`</td>
+                        <td class="d-none d-lg-block">`+result[i].street+`</td>
+                        <td>`+result[i].brewery_type+`</td>
+                        <td><a href="`+result[i].website_url+`">Go to website</a></td>
+                        </tr>
+                        `;
+    
+    
+    
+                            $(".result-T").append(Display);
+
+                    }  else if(result[i].city === null && result[i].state === null){
+
+                        let  Display = `
+        
+                        <tr>
+                        <th scope="row">1</th>
+                        <td>`+result[i].name+`</td>
+                        <td>Unknown</td>
+                        <td class="d-none d-lg-block">`+result[i].street+`</td>
+                        <td>`+result[i].brewery_type+`</td>
+                        <td><a href="`+result[i].website_url+`">Go to website</a></td>
+                        </tr>
+                        `;
+    
+    
+                            $(".result-T").append(Display);
+
+                    }else if(result[i].website_url == null){
+
+                        let  Display = `
+        
+                        <tr>
+                        <th scope="row">1</th>
+                        <td>`+result[i].name+`</td>
+                        <td>`+result[i].state+`, `+result[i].city+`</td>
+                        <td class="d-none d-lg-block">`+result[i].street+`</td>
+                        <td>`+result[i].brewery_type+`</td>
+                        <td>Unknown</a></td>
+                        </tr>
+                        `;
+  
+                          $(".result-T").append(Display); 
+                    
+                     } else if(result[i.street == null]){
+
+                        let  Display = `
+        
+                        <tr>
+                        <th scope="row">1</th>
+                        <td>`+result[i].name+`</td>
+                        <td>`+result[i].state+`, `+result[i].city+`</td>
+                        <td class="d-none d-lg-block">Unkown</td>
+                        <td>`+result[i].brewery_type+`</td>
+                        <td>Unknown</a></td>
+                        </tr>
+                        `;
+  
+                          $(".result-T").append(Display); 
+                        
+                     }else{
+
+                        let  Display = `
+        
+                        <tr>
+                        <th scope="row">1</th>
+                        <td>`+result[i].name+`</td>
+                        <td>`+result[i].state+`, `+result[i].city+`</td>
+                        <td class="d-none d-lg-block">`+result[i].street+`</td>
+                        <td>`+result[i].brewery_type+`</td>
+                        <td><a href="`+result[i].website_url+`">Go to website</a></td>
+                        </tr>
+                        `;
+                        
+
+                        $(".result-T").append(Display);
+
+                    }
             }
 
     }).then(() =>{
@@ -343,7 +451,7 @@ $(document).ready(function(){
 
         
 
-        $(".results").empty();
+        $(".result-T").empty();
         let NameValue = $(".name").val();  
         
         const BrewName = 'https://api.openbrewerydb.org/breweries/search?query='+ NameValue;
@@ -369,17 +477,21 @@ $(document).ready(function(){
 
                 let NameV = NameValue.toLowerCase();
 
-                var Display = `
+                let  Display = `
         
-                <div class="col-12 result p-4 mt-4 mb-4">
-                
-                    <h3 class="text-center">`+result[i].name+`</h3>
-                    <h5 class="text-center brew-info mt-3">`+result[i].state+`, `+result[i].city+`</h5>
-                    <h5 class="text-center brew-info mt-3">`+result[i].street+`</h5>
-                    <h5 class="text-center brew-info mt-3">`+result[i].brewery_type+` brewery</h5>
-                    <a href="`+result[i].website_url+`"> <h5 class="text-center brew-info web mt-3">Go to website</h5></a>
-                    <h5 class="text-center brew-info mt-3">`+result[i].phone+`</h5>
+                <tr>
+                <th scope="row" class="d-none d-lg-block">1</th>
+                <td>`+result[i].name+`</td>
+                <td>`+result[i].state+`, `+result[i].city+`</td>
+                <td class="d-none d-lg-block">`+result[i].street+`</td>
+                <td>`+result[i].brewery_type+`</td>
+                <td><a href="`+result[i].website_url+`">Go to website</a></td>
+                </tr>
                 `;
+                
+
+                $(".result-T").append(Display);
+
 
                 var match = result[i].name.toLowerCase().match(NameV);
 
@@ -388,7 +500,7 @@ $(document).ready(function(){
                     // console.log(match);
                     console.log(result[i].name);
                      
-                    $(".results").append(Display);
+                    $(".result-T").append(Display);
 
                     
 
@@ -406,3 +518,38 @@ $(document).ready(function(){
 
     
 }); //Document ready function ends here
+
+
+
+
+
+// <table class="table table-striped table-dark">
+// <thead>
+//     <tr><h3 class="text-center"> All Nano Breweries </h3></tr>
+//   <tr>
+//     <th scope="col">#</th>
+//     <th scope="col">Name</th>
+//     <th scope="col">City and State</th>
+//     <th scope="col">Address</th>
+//     <th scope="col">Type</th>
+//     <th scope="col">Website</th>
+//   </tr>
+// </thead>
+// <tbody>
+  
+
+
+// </tbody>
+// </table>
+
+// let  Display = `
+        
+// <tr>
+// <th scope="row">1</th>
+// <td></td>
+// <td>`+result[i].name+`</td>
+// <td>`+result[i].state+`, `+result[i].city+`</td>
+// <td>`+result[i].street+`</td>
+// <td><a href="`+result[i].website_url+`">Go to website</a></td>
+// </tr>
+// `;
