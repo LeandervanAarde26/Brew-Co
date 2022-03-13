@@ -78,9 +78,6 @@
     height: 150px;
 }
 
-tr,th{
-    height: 40px !important;
-}
 
 a{
    color: inherit;
@@ -96,6 +93,14 @@ a:hover{
     box-shadow: inset 150px 0 0 0 #CF9239;
    
 }
+
+@media (min-width: 577px) and (max-width: 767.98px){
+
+    tr{
+        width: 25%;
+    }
+}
+
 
 
 

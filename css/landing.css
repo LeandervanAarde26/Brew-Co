@@ -32,10 +32,13 @@
 
 .about,.suggestions,.services{
     background-color: #edddc6de;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
 }
 
 .about{
     height: 70vh;
+
 }
 
 .services,.suggestions{

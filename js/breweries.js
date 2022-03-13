@@ -133,14 +133,17 @@ $(document).ready(function(){
 
                 let tempArray = [Name,Lattitude,Longitude];
 
+                
+
                 locationArray.push(tempArray);
+
+                
 
 
                  if(result[i].street === null){
                     let  Display = `
                     
                     <tr>
-                    <th scope="row">`+result[i].length+`</th>
                     <td>`+result[i].name+`</td>
                     <td>`+result[i].state+`, `+result[i].city+`</td>
                     <td class="d-none d-lg-block">Unkown</td>
@@ -155,7 +158,6 @@ $(document).ready(function(){
 
                         let  Display = `
                         <tr>
-                        <th scope="row">1</th>
                         <td>`+result[i].name+`</td>
                         <td>`+result[i].city+`</td>
                         <td class="d-none d-lg-block">`+result[i].street+`</td>
@@ -174,7 +176,7 @@ $(document).ready(function(){
                         let  Display = `
         
                         <tr>
-                        <th scope="row">1</th>
+                     
                         <td>`+result[i].name+`</td>
                         <td>`+result[i].state+`</td>
                         <td class="d-none d-lg-block">`+result[i].street+`</td>
@@ -192,7 +194,7 @@ $(document).ready(function(){
                         let  Display = `
         
                         <tr>
-                        <th scope="row">1</th>
+                     
                         <td>`+result[i].name+`</td>
                         <td>Unknown</td>
                         <td class="d-none d-lg-block">`+result[i].street+`</td>
@@ -209,7 +211,7 @@ $(document).ready(function(){
                         let  Display = `
         
                         <tr>
-                        <th scope="row">1</th>
+                     
                         <td>`+result[i].name+`</td>
                         <td>`+result[i].state+`, `+result[i].city+`</td>
                         <td class="d-none d-lg-block">`+result[i].street+`</td>
@@ -225,7 +227,7 @@ $(document).ready(function(){
                         let  Display = `
         
                         <tr>
-                        <th scope="row">1</th>
+                     
                         <td>`+result[i].name+`</td>
                         <td>`+result[i].state+`, `+result[i].city+`</td>
                         <td class="d-none d-lg-block">`+result[i].street+`</td>
@@ -304,7 +306,7 @@ $(document).ready(function(){
                     let  Display = `
         
                         <tr>
-                        <th scope="row">1</th>
+                     
                         <td>`+result[i].name+`</td>
                         <td>`+result[i].state+`, `+result[i].city+`</td>
                         <td class="d-none d-lg-block">`+result[i].street+`</td>
@@ -321,7 +323,7 @@ $(document).ready(function(){
                     let  Display = `
                     
                     <tr>
-                    <th scope="row">`+result[i].length+`</th>
+                    
                     <td>`+result[i].name+`</td>
                     <td>`+result[i].state+`, `+result[i].city+`</td>
                     <td class="d-none d-lg-block">Unkown</td>
@@ -336,7 +338,7 @@ $(document).ready(function(){
 
                         let  Display = `
                         <tr>
-                        <th scope="row">1</th>
+                     
                         <td>`+result[i].name+`</td>
                         <td>`+result[i].city+`</td>
                         <td class="d-none d-lg-block">`+result[i].street+`</td>
@@ -355,7 +357,7 @@ $(document).ready(function(){
                         let  Display = `
         
                         <tr>
-                        <th scope="row">1</th>
+                     
                         <td>`+result[i].name+`</td>
                         <td>`+result[i].state+`</td>
                         <td class="d-none d-lg-block">`+result[i].street+`</td>
@@ -373,7 +375,7 @@ $(document).ready(function(){
                         let  Display = `
         
                         <tr>
-                        <th scope="row">1</th>
+                     
                         <td>`+result[i].name+`</td>
                         <td>Unknown</td>
                         <td class="d-none d-lg-block">`+result[i].street+`</td>
@@ -390,7 +392,6 @@ $(document).ready(function(){
                         let  Display = `
         
                         <tr>
-                        <th scope="row">1</th>
                         <td>`+result[i].name+`</td>
                         <td>`+result[i].state+`, `+result[i].city+`</td>
                         <td class="d-none d-lg-block">`+result[i].street+`</td>
@@ -406,7 +407,6 @@ $(document).ready(function(){
                         let  Display = `
         
                         <tr>
-                        <th scope="row">1</th>
                         <td>`+result[i].name+`</td>
                         <td>`+result[i].state+`, `+result[i].city+`</td>
                         <td class="d-none d-lg-block">Unkown</td>
@@ -421,8 +421,7 @@ $(document).ready(function(){
 
                         let  Display = `
         
-                        <tr>
-                        <th scope="row">1</th>
+                        <tr>        
                         <td>`+result[i].name+`</td>
                         <td>`+result[i].state+`, `+result[i].city+`</td>
                         <td class="d-none d-lg-block">`+result[i].street+`</td>
@@ -479,8 +478,7 @@ $(document).ready(function(){
 
                 let  Display = `
         
-                <tr>
-                <th scope="row" class="d-none d-lg-block">1</th>
+                <tr>     
                 <td>`+result[i].name+`</td>
                 <td>`+result[i].state+`, `+result[i].city+`</td>
                 <td class="d-none d-lg-block">`+result[i].street+`</td>
