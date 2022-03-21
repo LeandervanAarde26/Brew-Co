@@ -1,6 +1,6 @@
 .row-1{
     background-color: #050B12;
-    height: 90vh;
+    height: 70vh;
     background-image: url("../Assets/taps-1.jpg");
     background-position: center;
     background-size: cover;
@@ -8,12 +8,12 @@
 
 .sm-color-row{
     background-color: #EDDDC6;
-    height: 60vh;
+    height: 55vh;
 }
 
 .row-2{
     background-color: #050B12;
-    height: 90vh;
+    height: 60vh;
     background-image: url("../Assets/Barrels.jpg");
     background-position: center;
     background-size: cover;
@@ -21,8 +21,8 @@
 
 .row-3{
     background-color: #050B12;
-    height: 90vh;
-    background-image: url("../Assets/Beerglass.png");
+    height: 60vh;
+    background-image: url("../Assets/Beerglass.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -37,12 +37,12 @@
 }
 
 .about{
-    height: 70vh;
+    height: 50vh;
 
 }
 
 .services,.suggestions{
-    height: 90vh;
+    height: 60vh;
 }
 
 a{

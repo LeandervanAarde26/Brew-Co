@@ -516,38 +516,3 @@ $(document).ready(function(){
 
     
 }); //Document ready function ends here
-
-
-
-
-
-// <table class="table table-striped table-dark">
-// <thead>
-//     <tr><h3 class="text-center"> All Nano Breweries </h3></tr>
-//   <tr>
-//     <th scope="col">#</th>
-//     <th scope="col">Name</th>
-//     <th scope="col">City and State</th>
-//     <th scope="col">Address</th>
-//     <th scope="col">Type</th>
-//     <th scope="col">Website</th>
-//   </tr>
-// </thead>
-// <tbody>
-  
-
-
-// </tbody>
-// </table>
-
-// let  Display = `
-        
-// <tr>
-// <th scope="row">1</th>
-// <td></td>
-// <td>`+result[i].name+`</td>
-// <td>`+result[i].state+`, `+result[i].city+`</td>
-// <td>`+result[i].street+`</td>
-// <td><a href="`+result[i].website_url+`">Go to website</a></td>
-// </tr>
-// `;
