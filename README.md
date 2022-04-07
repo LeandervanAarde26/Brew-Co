@@ -137,35 +137,34 @@ Through the use of this API I was able to get a list of breweries (max of 25), a
 This feature was achieved through creating empty arrays that would take in the value based on what the user has typed/selected, I would then take the latitude and Longitude value and convert it to an integer value. I would then take the address and add that as part of my geocoder that sits within a function that creates the address. I then procedded set a Content value and use that within another function that would set the Markers, initialised at null. I also added a feature from GoogleMaps called infoWindow that allows users to gain a bit more information when clicking on the marker. 
 
 
+
+#### Highlights
+<!-- stipulated the highlight you experienced with the project -->
 * Utilized `GoogleMaps` for Map and Markers
 * API End Point: link <a href="https://www.openbrewerydb.org/">Here</a>
 * Utilized JQuery to make code look cleaner and write less. 
 * Utilized Bootstrap and bootstrap components to make it responsive across devices.
 * Utilized Google Analytics, Google console and Google ads in order to track the growth and popularity of the website
-
-#### Highlights
-<!-- stipulated the highlight you experienced with the project -->
-* The highlight of this project was 
-* What aspects did you enjoy.
+* Figuring out a very simple PHP form, getting an introduction into php
 
 #### Challenges
 <!-- stipulated the challenges you faced with the project and why you think you faced it or how you think you'll solve it (if not solved) -->
-* Bugs.
-* Bugs.
+* The biggest challenge that I faced throughout this project was the Maps implementation of the google Maps API, it had taken a lot of trial and error in order to get it to work. At this stage I do not fully understand the implementation of it but I definetly have a better understanding of it.
+*  Another challenge that I had faced was through my hosting service, i had issues with the actual hosting and getting it work as I needed. 
+* The implementation of the php was difficult and hard to understand at first considering how different the syntax of php is as opposed to the syntax found in Javascript.
 
 
 #### Above And Beyond
 
-What aspects of this final build contribute to the `Above And Beyond` Component of your brief?
 <!-- what did you learn outside of the classroom and implement into your project-->
-* Name of Skill Explored.
-* Explain your understanding and execution of above skill.
+* The extra skill that I have explored during this projet was the implementation of Google maps and adding markers. As previosly stated, I do not fully understand it as of yet, but I definetly have a better understanding of it. I understand that there are certain things such as lat/long that need to be placed into this as it is what will determine where the marker is and that all markers need a new position on the mpa. This skill is definetly the highlight of this project as it was the most challenging, yet the most satisfying to achieve. The google maps feature has added a lot to this project. 
 
 ### Future Implementation
 <!-- stipulate functionality and improvements that can be implemented in the future. -->
 
-* Future 1.
-* Future 2.
+* Allowing the user to select all 3 inputs so that they can search by Type, State and Name in order to find certain breweries in their area.
+* implementation of a suggestion div that will return the available options that contain the users value that they have put in
+* Better styling in the future to make the website feel cleaner and more refined
 
 <!-- MOCKUPS -->
 ## Final Outcome
