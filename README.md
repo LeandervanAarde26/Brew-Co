@@ -171,18 +171,17 @@ This feature was achieved through creating empty arrays that would take in the v
 
 ### Mockups
 
-<img src="https://drive.google.com/uc?export=view&id=1GzOn1WLE0IspAX3NWL3aTFT-zjrgjZsG" width="400" height="400">
+![image9](https://drive.google.com/uc?export=view&id=1GzOn1WLE0IspAX3NWL3aTFT-zjrgjZsG)
 <br>
 
-<img src="https://drive.google.com/file/d/1ORoKNyjEPtLSa4T3u0YaimCXZ32jPGvr/view?usp=sharing" width="400" height="400">
-<img src="https://drive.google.com/file/d/1yt7SwVW8IHq2MhY0M2h4X9r4TVSQpG3O/view?usp=sharing" width="400" height="400">
-<img src="https://drive.google.com/file/d/19O-OH17F1FemI2S4de_WvNwc3UTnHFIF/view?usp=sharing" width="400" height="400">
-<img src="https://drive.google.com/uc?export=view&id=19O-OH17F1FemI2S4de_WvNwc3UTnHFIF" width="400" height="400">
-<img src="https://drive.google.com/uc?export=view&id=1GzOn1WLE0IspAX3NWL3aTFT-zjrgjZsG" width="400" height="400">
-<img src="https://drive.google.com/uc?export=view&id=1Y7FNtjVvKvfZ9KyYY6zk8sqRmMhDDpM_" width="400" height="400">
+![image10](https://drive.google.com/uc?export=view&id=19O-OH17F1FemI2S4de_WvNwc3UTnHFIF)
+![image12](https://drive.google.com/uc?export=view&id=1Y7FNtjVvKvfZ9KyYY6zk8sqRmMhDDpM )
+![image13](https://drive.google.com/uc?export=view&id=1ORoKNyjEPtLSa4T3u0YaimCXZ32jPGvr)
+![image13](https://drive.google.com/uc?export=view&id=1yt7SwVW8IHq2MhY0M2h4X9r4TVSQpG3O)
+![image14](https://drive.google.com/uc?export=view&id=1yt7SwVW8IHq2MhY0M2h4X9r4TVSQpG3O)
 
 <!-- 1yt7SwVW8IHq2MhY0M2h4X9r4TVSQpG3O -->
-<!-- <img src="https://fullpath/assets/yourgif.gif" width="400" height="790"> -->
+
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
