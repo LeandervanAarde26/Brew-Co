@@ -109,7 +109,7 @@ Run the following in the command-line to clone the project:
     Open `Software` and select `File | Open...` from the menu. Select cloned directory and press `Open` button
 
 
-4. No API keys are required as the API being used is an openSource API. 
+4. No API keys are required as the API being used is an openSource API.
 
 
 <!-- FEATURES AND FUNCTIONALITY-->
@@ -117,7 +117,7 @@ Run the following in the command-line to clone the project:
 ## Features and Functionality
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
-<FILEID>
+![image2](https://raw.githubusercontent.com/MikeMaynard14/termoneexample/main/src/assets/mockup.jpg)
 ![image2](https://drive.google.com/uc?export=view&id=1GzOn1WLE0IspAX3NWL3aTFT-zjrgjZsG)
 
 ### All The Latest Space X Data! 
