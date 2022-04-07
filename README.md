@@ -188,7 +188,7 @@ See the [open issues](https://github.com/MikeMaynard14/termoneexample/issues) fo
 <!-- AUTHORS -->
 ## Authors
 
-* **Your Name & Surname** - [MikeMaynard14](https://github.com/MikeMaynard14)
+* **Your Name & Surname** - [Leander van Aarde](https://github.com/LeandervanAarde)
 
 <!-- LICENSE -->
 ## License
@@ -198,15 +198,25 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 <!-- LICENSE -->
 ## Contact
 
-* **Your Name & Surname** - [email@address](mailto:email@address) - [@instagram_handle](https://www.instagram.com/instagram_handle/) 
-* **Project Link** - https://github.com/MikeMaynard14/termoneexample
+* **Your Name & Surname** - [email@address](mailto: Leander.vaonline@gmail.com) - [@instagram_handle](https://www.instagram.com/_.leander_e/) 
+* **Project Link** - https://github.com/LeandervanAarde/Brew-Co
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 <!-- all resources that you used and Acknowledgements here -->
-* [Resource Name](path/to/resource)
-* [Resource Name](path/to/resource)
-* [Resource Name](path/to/resource)
-* [Resource Name](path/to/resource)
-* [Resource Name](path/to/resource)
+* [Openbrewery DB](https://www.openbrewerydb.org/)
+* [image](https://unsplash.com/photos/UTzBjrptXQo)
+* [image](https://unsplash.com/photos/GFYkpEUEEwo)
+* [image](https://unsplash.com/photos/JCIJnIXv7SE)
+* [image](https://www.pexels.com/photo/stainless-steel-beer-dispenser-159291/)
+* [image](https://unsplash.com/photos/-Ygu9Qx309s)
+* [image](https://za.pinterest.com/pin/844143523912853063/)
+* [Button hover](https://dev.to/webdeasy/top-20-css-buttons-animations-f41)
+* [Analytics](https://analytics.google.com/analytics/web/#/)
+* [Google Search Console](https://search.google.com/search-console/about)
+* [Google ads](https://ads.google.com/intl/en_za/getstarted/?subid=za-en-ha-aw-sk-c-bau!o3~Cj0KCQjwl7qSBhD-ARIsACvV1X1GN2U57sV45ivZ9lJsGM5Kt_IrGLBm1M3833JfhZcwsMqgev5KFvEaAgedEALw_wcB~107794613682~kwd-94527731~10771944695~454709096618&utm_source=aw&utm_medium=ha&utm_campaign=za-en-ha-aw-sk-c-bau!o3~Cj0KCQjwl7qSBhD-ARIsACvV1X1GN2U57sV45ivZ9lJsGM5Kt_IrGLBm1M3833JfhZcwsMqgev5KFvEaAgedEALw_wcB~107794613682~kwd-94527731~10771944695~454709096618&gclid=Cj0KCQjwl7qSBhD-ARIsACvV1X1GN2U57sV45ivZ9lJsGM5Kt_IrGLBm1M3833JfhZcwsMqgev5KFvEaAgedEALw_wcB&gclsrc=aw.ds)
+* [Icons](https://heroicons.com/)
+
+
+
 
