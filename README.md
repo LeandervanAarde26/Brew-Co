@@ -38,7 +38,7 @@
 
 ## Table of Contents
 
-* [About the Project](#about-the-project)
+* :point_right: [About the Project](#about-the-project)
   * [Project Description](#project-description)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
