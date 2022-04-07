@@ -45,10 +45,6 @@
   * [Prerequisites](#prerequisites)
   * [How to install](#how-to-install)
 * [Features and Functionality](#features-and-functionality)
-* [Concept Process](#concept-process)
-   * [Ideation](#ideation)
-   * [Wireframes](#wireframes)
-   * [Custom UI](#user-flow)
 * [Development Process](#development-process)
    * [Implementation Process](#implementation-process)
         * [Highlights](#highlights)
@@ -117,20 +113,19 @@ Run the following in the command-line to clone the project:
 ## Features and Functionality
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
-![image2](https://raw.githubusercontent.com/MikeMaynard14/termoneexample/main/src/assets/mockup.jpg)
 ![image2](https://drive.google.com/uc?export=view&id=1GzOn1WLE0IspAX3NWL3aTFT-zjrgjZsG)
 
-### All The Latest Space X Data! 
+### All the best 
 
-Usding the Space X API, we have collected and collated all the most relevant Space X data into once seemless react experience!
+Using the OpenBrewery DB I have been able to give a user a great experience in locating different Breweries!
 
-![image3][image3]
-### Feature 2
-
-Description of Feature
+![image3][https://drive.google.com/uc?export=view&id=19O-OH17F1FemI2S4de_WvNwc3UTnHFIF]
+### Breweries
+On the breweries page, users can view all breweries based on one input that they have filled out, that can choose on of the Brewery types that have been listed, They can search by State or search Brewery names, it will then call the API and showcase all breweries on a google Map (markers added), and it will then show them the relevant information of that brewery such as the Brewery name, type, address, State and website. This will serve as a way for users to contact the Breweries or view their website before going. 
 
 ![image4][image4]
-### Feature 3
+### Feedback
+Feedback can be left on the contact page, this has been implemented with simple php, sending an email directly to me, this is a good alternative to get in touch with me regarding issues, recommendation or general feedback on BrewCo. 
 
 Description of Feature
 
