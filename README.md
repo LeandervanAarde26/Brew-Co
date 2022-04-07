@@ -119,7 +119,7 @@ Run the following in the command-line to clone the project:
 
 Using the OpenBrewery DB I have been able to give a user a great experience in locating different Breweries!
 
-![image3][https://drive.google.com/uc?export=view&id=19O-OH17F1FemI2S4de_WvNwc3UTnHFIF]
+![image3](https://drive.google.com/uc?export=view&id=19O-OH17F1FemI2S4de_WvNwc3UTnHFIF)
 ### Breweries
 On the breweries page, users can view all breweries based on one input that they have filled out, that can choose on of the Brewery types that have been listed, They can search by State or search Brewery names, it will then call the API and showcase all breweries on a google Map (markers added), and it will then show them the relevant information of that brewery such as the Brewery name, type, address, State and website. This will serve as a way for users to contact the Breweries or view their website before going. 
 
