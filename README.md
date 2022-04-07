@@ -174,11 +174,12 @@ This feature was achieved through creating empty arrays that would take in the v
 ![image9]<img src="https://drive.google.com/uc?export=view&id=1GzOn1WLE0IspAX3NWL3aTFT-zjrgjZsG" width="400" height="400">
 <br>
 
-![image10]<img src="https://drive.google.com/uc?export=view&id=1ORoKNyjEPtLSa4T3u0YaimCXZ32jPGvr" width="400" height="400">
-![image12]<img src="https://drive.google.com/uc?export=view&id=1yt7SwVW8IHq2MhY0M2h4X9r4TVSQpG3O" width="400" height="400">
-![image13]<img src="https://drive.google.com/uc?export=view&id=19O-OH17F1FemI2S4de_WvNwc3UTnHFIF" width="400" height="400">
-![image13]<img src="https://drive.google.com/uc?export=view&id=1GzOn1WLE0IspAX3NWL3aTFT-zjrgjZsG" width="400" height="400">
-![image14]<img src="https://drive.google.com/uc?export=view&id=1Y7FNtjVvKvfZ9KyYY6zk8sqRmMhDDpM_" width="400" height="400">
+<img src="https://drive.google.com/uc?export=view&id=1ORoKNyjEPtLSa4T3u0YaimCXZ32jPGvr" width="400" height="400">
+<img src="https://drive.google.com/uc?export=view&id=1ORoKNyjEPtLSa4T3u0YaimCXZ32jPGvr" width="400" height="400">
+<img src="https://drive.google.com/uc?export=view&id=1yt7SwVW8IHq2MhY0M2h4X9r4TVSQpG3O" width="400" height="400">
+<img src="https://drive.google.com/uc?export=view&id=19O-OH17F1FemI2S4de_WvNwc3UTnHFIF" width="400" height="400">
+<img src="https://drive.google.com/uc?export=view&id=1GzOn1WLE0IspAX3NWL3aTFT-zjrgjZsG" width="400" height="400">
+<img src="https://drive.google.com/uc?export=view&id=1Y7FNtjVvKvfZ9KyYY6zk8sqRmMhDDpM_" width="400" height="400">
 
 <!-- 1yt7SwVW8IHq2MhY0M2h4X9r4TVSQpG3O -->
 <!-- <img src="https://fullpath/assets/yourgif.gif" width="400" height="790"> -->
