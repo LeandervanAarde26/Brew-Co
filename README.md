@@ -171,14 +171,14 @@ This feature was achieved through creating empty arrays that would take in the v
 
 ### Mockups
 
-![image9](https://drive.google.com/uc?export=view&id=1GzOn1WLE0IspAX3NWL3aTFT-zjrgjZsG)
+![image9](https://drive.google.com/uc?export=view&id=1ORoKNyjEPtLSa4T3u0YaimCXZ32jPGvr)
 <br>
 
-![image10](https://drive.google.com/uc?export=view&id=19O-OH17F1FemI2S4de_WvNwc3UTnHFIF)
-![image12](https://drive.google.com/uc?export=view&id=1Y7FNtjVvKvfZ9KyYY6zk8sqRmMhDDpM )
-![image13](https://drive.google.com/uc?export=view&id=1ORoKNyjEPtLSa4T3u0YaimCXZ32jPGvr)
-![image13](https://drive.google.com/uc?export=view&id=1yt7SwVW8IHq2MhY0M2h4X9r4TVSQpG3O)
-![image14](https://drive.google.com/uc?export=view&id=1yt7SwVW8IHq2MhY0M2h4X9r4TVSQpG3O)
+![image10](https://drive.google.com/uc?export=view&id=1yt7SwVW8IHq2MhY0M2h4X9r4TVSQpG3O)
+![image12](https://drive.google.com/uc?export=view&id=19O-OH17F1FemI2S4de_WvNwc3UTnHFIF)
+![image13](https://drive.google.com/uc?export=view&id=1GzOn1WLE0IspAX3NWL3aTFT-zjrgjZsG)
+![image13](https://drive.google.com/uc?export=view&id=1Y7FNtjVvKvfZ9KyYY6zk8sqRmMhDDpM_)
+
 
 <!-- 1yt7SwVW8IHq2MhY0M2h4X9r4TVSQpG3O -->
 
