@@ -25,7 +25,13 @@
 
 .submit{
     border: 6px solid  #CF9239 ;
+    transition: 0.3s ease-in-out;
 
+}
+
+.submit:hover{
+    transform: scale(1.1);
+    background-color: #CF9239;
 }
 
 

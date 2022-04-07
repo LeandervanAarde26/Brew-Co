@@ -57,9 +57,16 @@
 }
 
 .map{
-    height: 600px
+    height: 600px;
+  padding-left: 2.5%;
+  padding-right: 3%;
 }
 
+
+
+#map{
+  
+}
 /* Change height with @media */
 
 
