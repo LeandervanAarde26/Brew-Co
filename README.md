@@ -175,7 +175,7 @@ This feature was achieved through creating empty arrays that would take in the v
 <br>
 
 ![image10](https://drive.google.com/uc?export=view&id=19O-OH17F1FemI2S4de_WvNwc3UTnHFIF)
-![image12](https://drive.google.com/uc?export=view&id=1Y7FNtjVvKvfZ9KyYY6zk8sqRmMhDDpM =250x250)
+![image12](https://drive.google.com/uc?export=view&id=1Y7FNtjVvKvfZ9KyYY6zk8sqRmMhDDpM | height= 100)
 ![image13](https://drive.google.com/uc?export=view&id=1ORoKNyjEPtLSa4T3u0YaimCXZ32jPGvr)
 ![image13](https://drive.google.com/uc?export=view&id=1yt7SwVW8IHq2MhY0M2h4X9r4TVSQpG3O)
 ![image14](https://drive.google.com/uc?export=view&id=1yt7SwVW8IHq2MhY0M2h4X9r4TVSQpG3O)
