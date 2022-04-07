@@ -17,14 +17,14 @@
 <p align="center">
 
   <a href="https://github.com/LeandervanAarde/Brew-Co">
-    <img src="Assets/logo-removebg-preview.png" alt="Logo" width="140" height="140">
+    <img src="Assets/lLogo-white.svg" alt="Logo" width="140" height="140">
   </a>
   
-  <h3 align="center">OpenSpace</h3>
+  <h3 align="center">BREW CO.</h3>
 
   <p align="center">
-    A react project using the Space X Api to demonstrate data visualization using charts js  <br>
-    <i>This However is a template file for DV200 Students!</i> 
+   A project created using the openDB breweries API, locating breweries through the use of HTML5, CSS3, JQuery 3.6.0 , Google Maps and bootstrap 5 <br>
+    <i>Go support Brew Co at <a href="https://brewcobreweries.com/index.html"></a></i> 
     
    <br />
    <br />
