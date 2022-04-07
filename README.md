@@ -23,8 +23,8 @@
   <h3 align="center">BREW CO.</h3>
 
   <p align="center">
-   A project created using the openDB breweries API, locating breweries through the use of HTML5, CSS3, JQuery 3.6.0 , Google Maps and bootstrap 5 <br>
-    <i>Go support Brew Co at <a href="https://brewcobreweries.com/index.html"></a></i> 
+   A project created using The Open Brewery DB API, locating breweries through the use of HTML5, CSS3, JQuery 3.6.0 , Google Maps and bootstrap 5 <br>
+    <i>Go support Brew Co at <a href="https://brewcobreweries.com/index.html">Brewcobreweries.com</a></i> 
     
    <br />
    <br />
@@ -69,7 +69,9 @@
 
 ### Project Description
 
-A nice introduction to this amazing project of mine.
+BrewCo breweries is an application that has been built using HTML, CSS, and JQuery. Using the Google Maps API I was able to implement a map that could visualise the locations of the breweries. 
+<br>
+The API that was used to build this project is The Open Brewery DB, link to the api can be found <a href="https://www.openbrewerydb.org/">Here </a>
 
 ### Built With
 
