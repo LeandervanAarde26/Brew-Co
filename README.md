@@ -115,7 +115,7 @@ Run the following in the command-line to clone the project:
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
 ![image2](https://drive.google.com/uc?export=view&id=1GzOn1WLE0IspAX3NWL3aTFT-zjrgjZsG)
 
-### All the best 
+### All the best Breweries
 
 Using the OpenBrewery DB I have been able to give a user a great experience in locating different Breweries!
 
@@ -123,54 +123,29 @@ Using the OpenBrewery DB I have been able to give a user a great experience in l
 ### Breweries
 On the breweries page, users can view all breweries based on one input that they have filled out, that can choose on of the Brewery types that have been listed, They can search by State or search Brewery names, it will then call the API and showcase all breweries on a google Map (markers added), and it will then show them the relevant information of that brewery such as the Brewery name, type, address, State and website. This will serve as a way for users to contact the Breweries or view their website before going. 
 
-![image4][image4]
+![image4](https://drive.google.com/uc?export=view&id=1Y7FNtjVvKvfZ9KyYY6zk8sqRmMhDDpM)
 ### Feedback
 Feedback can be left on the contact page, this has been implemented with simple php, sending an email directly to me, this is a good alternative to get in touch with me regarding issues, recommendation or general feedback on BrewCo. 
 
-Description of Feature
-
-![image5][image5]
-
-
-<!-- CONCEPT PROCESS -->
-<!-- Briefly explain your concept ideation process -->
-<!-- here you will add things like wireframing, data structure planning, anything that shows your process. You need to include images-->
-## Concept Process
-
-The `Conceptual Process` is the set of actions, activities and research that was done when starting this project.
-
-### Ideation
-
-![image5][image5]
-<br>
-![image6][image6]
-
-### Wireframes
-
-![image7][image7]
-
-### Custom UI
-
-![image8][image8]
-
-<!-- DEVELOPMENT PROCESS -->
 ## Development Process
 
 The `Development Process` is the technical implementations and functionality done in the frontend and backend of the application.
 
 ### Implementation Process
-<!-- stipulate all of the functionality you included in the project -->
-<!-- This is your time to shine, explain the technical nuances of your project, how did you achieve the final outcome!-->
+Through the use of this API I was able to get a list of breweries (max of 25), and output them into aa table, this API was fairly straight forward in terms of how it was going to be implemented. The most difficult feature of this entire application was the implementation of the Google Maps. 
+<br>
+This feature was achieved through creating empty arrays that would take in the value based on what the user has typed/selected, I would then take the latitude and Longitude value and convert it to an integer value. I would then take the address and add that as part of my geocoder that sits within a function that creates the address. I then procedded set a Content value and use that within another function that would set the Markers, initialised at null. I also added a feature from GoogleMaps called infoWindow that allows users to gain a bit more information when clicking on the marker. 
 
-* Utilized React `Charts.JS` dependency for Data visualization
-* Implemented Routing with `React-Router v6`.
-* API End Point: link Here 
-* `Plugin` for this.
-* ETC.
+
+* Utilized `GoogleMaps` for Map and Markers
+* API End Point: link <a href="https://www.openbrewerydb.org/">Here</a>
+* Utilized JQuery to make code look cleaner and write less. 
+* Utilized Bootstrap and bootstrap components to make it responsive across devices.
+* Utilized Google Analytics, Google console and Google ads in order to track the growth and popularity of the website
 
 #### Highlights
 <!-- stipulated the highlight you experienced with the project -->
-* What was good about this project, what did you learn.
+* The highlight of this project was 
 * What aspects did you enjoy.
 
 #### Challenges
