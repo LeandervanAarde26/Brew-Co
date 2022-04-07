@@ -20,7 +20,7 @@
     <img src="Assets/Logo-white.svg" alt="Logo" width="140" height="140">
   </a>
   
-  <h3 align="center">BREW CO.</h3>
+  <h3 align="center">BREW CO.</h3> `:beers:`
 
   <p align="center">
    A project created using The Open Brewery DB API, locating breweries through the use of HTML5, CSS3, JQuery 3.6.0 , Google Maps and bootstrap 5 <br>
