@@ -30,9 +30,9 @@
    <br />
    <a href="path/to/demonstration/video">View Demo</a>
     ·
-    <a href="https://github.com/MikeMaynard14/termoneexample/issues">Report Bug</a>
+    <a href="https://github.com/LeandervanAarde/Brew-Co/issues">Report Bug</a>
     ·
-    <a href="https://github.com/MikeMaynard14/termoneexample/issues">Request Feature</a>
+    <a href="https://github.com/LeandervanAarde/Brew-Co/issues">Request Feature</a>
 </p>
 <!-- TABLE OF CONTENTS -->
 
@@ -75,9 +75,13 @@ The API that was used to build this project is The Open Brewery DB, link to the 
 
 ### Built With
 
-* [React](https://reactjs.org/)
-* [Technology Name](path/to/technology/website)
-* [Technology Name](path/to/technology/website)
+* [HTML]
+* [CSS]
+* [JQuery 3.6.0](https://jquery.com/)
+* [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+* [GoogleMaps] (https://developers.google.com/maps)
+* [Open Brewery DB](https://www.openbrewerydb.org/)
+
 
 <!-- GETTING STARTED -->
 <!-- Make sure to add appropriate information about what prerequesite technologies the user would need and also the steps to install your project on their own mashines -->
@@ -87,7 +91,7 @@ The following instructions will get you a copy of the project up and running on 
 
 ### Prerequisites
 
-Ensure that you have the latest version of [NPM](https://www.npmjs.com/) installed on your machine. The [GitHub Desktop](https://desktop.github.com/) program will also be required.
+The only Prerequisites for this project is to have access to a local server and any IDE. All CDN's other dependencies are listed as links 
 
 ### How to install
 
@@ -95,20 +99,15 @@ Ensure that you have the latest version of [NPM](https://www.npmjs.com/) install
 Here are a couple of ways to clone this repo:
 
 1. GitHub Desktop </br>
-Enter `https://github.com/MikeMaynard14/termoneexample.git` into the URL field and press the `Clone` button.
+Enter `https://github.com/LeandervanAarde/Brew-Co` into the URL field and press the `Clone` button.
 
 2. Clone Repository </br>
 Run the following in the command-line to clone the project:
    ```sh
-   git clone https://github.com/MikeMaynard14/termoneexample.git
+   git clone https://github.com/LeandervanAarde/Brew-Co
    ```
     Open `Software` and select `File | Open...` from the menu. Select cloned directory and press `Open` button
 
-3. Install Dependencies </br>
-Run the following in the command-line to install all the required dependencies:
-   ```sh
-   npm install
-   ```
 
 4. An API key is not required
 
