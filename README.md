@@ -117,7 +117,8 @@ Run the following in the command-line to clone the project:
 ## Features and Functionality
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
-![image2](https://drive.google.com/file/d/1GzOn1WLE0IspAX3NWL3aTFT-zjrgjZsG/view)
+<FILEID>
+![image2](https://drive.google.com/uc?export=view&id=1GzOn1WLE0IspAX3NWL3aTFT-zjrgjZsG)
 
 ### All The Latest Space X Data! 
 
