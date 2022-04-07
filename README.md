@@ -79,7 +79,7 @@ The API that was used to build this project is The Open Brewery DB, link to the 
 * [CSS]
 * [JQuery 3.6.0](https://jquery.com/)
 * [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-* [GoogleMaps] (https://developers.google.com/maps)
+* [Google Maps](https://developers.google.com/maps)
 * [Open Brewery DB](https://www.openbrewerydb.org/)
 
 
@@ -109,7 +109,7 @@ Run the following in the command-line to clone the project:
     Open `Software` and select `File | Open...` from the menu. Select cloned directory and press `Open` button
 
 
-4. An API key is not required
+4. No API keys are required as the API being used is an openSource API. 
 
 
 <!-- FEATURES AND FUNCTIONALITY-->
@@ -117,7 +117,7 @@ Run the following in the command-line to clone the project:
 ## Features and Functionality
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
-![image2](https://raw.githubusercontent.com/MikeMaynard14/termoneexample/main/src/assets/mockup.jpg)
+![image2](https://drive.google.com/drive/folders/1nlH8yyC1WMlZCwxnTYGTXERWV7FFacbh?usp=sharing)
 
 ### All The Latest Space X Data! 
 
