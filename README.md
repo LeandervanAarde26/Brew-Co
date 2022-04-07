@@ -17,7 +17,7 @@
 <p align="center">
 
   <a href="https://github.com/LeandervanAarde/Brew-Co">
-    <img src="Assets/lLogo-white.svg" alt="Logo" width="140" height="140">
+    <img src="Assets/Logo-white.svg" alt="Logo" width="140" height="140">
   </a>
   
   <h3 align="center">BREW CO.</h3>
