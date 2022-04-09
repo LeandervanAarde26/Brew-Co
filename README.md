@@ -12,7 +12,7 @@
 <!-- HEADER SECTION -->
 <h5 align="center" style="padding:0;margin:0;">Leander van Aarde</h5>
 <h5 align="center" style="padding:0;margin:0;">200211</h5>
-<h6 align="center">DV200 - Term 1 React Assignment| 2022</h6>
+<h6 align="center">DV200 - Term 1 SEO PROJECT| 2022</h6>
 </br>
 <p align="center">
 
