@@ -113,17 +113,17 @@ Run the following in the command-line to clone the project:
 ## Features and Functionality
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
-![image2](https://drive.google.com/uc?export=view&id=1GzOn1WLE0IspAX3NWL3aTFT-zjrgjZsG)
+![image2](https://drive.google.com/uc?export=view&id=1wFe2-B5jJrgHU0kw5ibWUH704rkN9a5e)
 
 ### All the best Breweries
 
 Using the OpenBrewery DB I have been able to give a user a great experience in locating different Breweries!
 
-![image3](https://drive.google.com/uc?export=view&id=19O-OH17F1FemI2S4de_WvNwc3UTnHFIF)
+![image3](https://drive.google.com/uc?export=view&id=1h6Hb1OMzESaxSOZCdpoZLI_HQYxAXkIz)
 ### Breweries
 On the breweries page, users can view all breweries based on one input that they have filled out, that can choose on of the Brewery types that have been listed, They can search by State or search Brewery names, it will then call the API and showcase all breweries on a google Map (markers added), and it will then show them the relevant information of that brewery such as the Brewery name, type, address, State and website. This will serve as a way for users to contact the Breweries or view their website before going. 
 
-![image4](https://drive.google.com/uc?export=view&id=13euXUPU7AnGV2q84pRnx00AZ3-xRGMT8)
+![image4](https://drive.google.com/uc?export=view&id=1PUTzxvx_yxqVqL8yGQuhgXCh2OqXHKLl)
 ### Feedback
 Feedback can be left on the contact page, this has been implemented with simple php, sending an email directly to me, this is a good alternative to get in touch with me regarding issues, recommendation or general feedback on BrewCo. 
 
@@ -171,13 +171,13 @@ This feature was achieved through creating empty arrays that would take in the v
 
 ### Mockups
 
-![image9](https://drive.google.com/uc?export=view&id=1ORoKNyjEPtLSa4T3u0YaimCXZ32jPGvr)
+![image9](https://drive.google.com/uc?export=view&id=1ABcSyrNhX2gLQ2F7IrNCmiWrGQFkhSpd)
 <br>
 
-![image10](https://drive.google.com/uc?export=view&id=1yt7SwVW8IHq2MhY0M2h4X9r4TVSQpG3O)
-![image12](https://drive.google.com/uc?export=view&id=19O-OH17F1FemI2S4de_WvNwc3UTnHFIF)
-![image13](https://drive.google.com/uc?export=view&id=1GzOn1WLE0IspAX3NWL3aTFT-zjrgjZsG)
-![image13](https://drive.google.com/uc?export=view&id=1Y7FNtjVvKvfZ9KyYY6zk8sqRmMhDDpM_)
+![image10](https://drive.google.com/uc?export=view&id=11dSm5peGmvT4tvDw0jpsXQVaB6iZK0A0H)
+![image12](https://drive.google.com/uc?export=view&id=1PUTzxvx_yxqVqL8yGQuhgXCh2OqXHKLl)
+![image13](https://drive.google.com/uc?export=view&id=1EnMsAshWSotpHrZMwYX_wTNiot2m0UbK)
+![image13](https://drive.google.com/uc?export=view&id=1s-mbLuhVEYIUsdcm7t1QBclIykX8TtM1)
 
 
 <!-- 1yt7SwVW8IHq2MhY0M2h4X9r4TVSQpG3O -->
