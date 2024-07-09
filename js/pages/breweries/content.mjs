@@ -1,11 +1,7 @@
 // Header
 
-import {
-  BreweriesTable,
-  Footer,
-  Header,
-  SearchContainer,
-} from "./components.mjs";
+import { Footer } from "../../components/Footer.mjs";
+import { BreweriesTable, Header, SearchContainer } from "./components.mjs";
 
 window.addEventListener("DOMContentLoaded", function () {
   const container = document.querySelector(".main");

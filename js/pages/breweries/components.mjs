@@ -1,11 +1,13 @@
 // Header
 
+import { Options } from "../../components/Option.mjs";
 import {
   BreweryInformation,
   breweryTypes,
   tableFields,
   tableHeading,
 } from "../../content/BreweryInformation.mjs";
+
 
 export const Header = () => `
 <div class="row header-row">
@@ -25,16 +27,6 @@ export const Header = () => `
   </div>
 `;
 
-export const Footer = () => {
-  const date = new Date();
-  const year = date.getFullYear();
-
-  return `
-    <footer class="row footer pt-5 ps-lg-4">
-        <p class=" ms-4  foot-text"><small>Brew Co. ${year} </small></p>
-    </footer>
-    `;
-};
 
 export const BreweriesTable = () => {
   const header = tableFields
@@ -66,22 +58,13 @@ export const BreweriesTable = () => {
 };
 
 export const SearchContainer = () => {
-  const generateOptions = (breweryTypes) => {
-    return breweryTypes
-      .map(
-        (item) =>
-          `<option value="${item}">${
-            item.charAt(0).toUpperCase() + item.slice(1)
-          }</option>`
-      )
-      .join("");
-  };
+
 
   return `
         <section class="search-container row  ">
             <select class="col-12 col-lg-4 brewery-type mt-4 ms-lg-5" name="Brewery-type">
                 <option disabled selected>Select Brewery type</option>
-                ${generateOptions(breweryTypes)}
+                ${Options(breweryTypes)}
             </select>
 
             <input class=" col-12 col-lg-4 search-input search state mt-4 ms-0 ms-lg-4 " type="text" placeholder="Search State" name="search">
