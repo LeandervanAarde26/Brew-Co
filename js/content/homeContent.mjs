@@ -1,4 +1,4 @@
-export const HomeDetails = [
+export const HomeContent = [
     {
         title: "ABOUT",
         description: "Brew Co. is an online only based platform that finds the best Breweries around the USA, whether you want to go on a beer-trip or just looking to find a good bar for the night out.",
@@ -38,21 +38,7 @@ export const HomeDetails = [
 
 				</div>
         `,
-        rowClass: "row-3 section-row",
-       
+        rowClass: "row-3 section-row",     
     }
   ];
   
-
-
-              // <div class="col-12" style="height: 6.1vh;"></div>
-            // <div class="col-6 d-none d-lg-block about">
-            //     <h2 class="text-center">${section.title}</h2>
-            //     <p class="text-center mt-5">${section.description}</p>
-            // </div>
-            // <div class="col-6 offset-3 col-lg-6 offset-lg-0">
-            //     <img src="Assets/Logo-white.svg" class="offset-lg-4 img-fluid" alt="Brew Co. logo">
-            // </div>
-
-                        // <h2 class="text-center">${section.title}</h2>
-            // <p class="text-center mt-1">${section.description}</p>

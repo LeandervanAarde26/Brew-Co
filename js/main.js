@@ -1,13 +1,10 @@
 window.addEventListener("DOMContentLoaded", function () {
-  console.log("main.js: DOM fully loaded and parsed");
- 
-
   // Create the container-fluid div
   const body = document.querySelector("body");
   const container = document.createElement("div");
   container.className = "container-fluid main";
   body.appendChild(container);
-  console.log("main.js: container-fluid added to the body");
+
 
   // Insert the navbar
   const navbar = `
@@ -37,7 +34,6 @@ window.addEventListener("DOMContentLoaded", function () {
     `;
 
   body.insertAdjacentHTML("afterbegin", navbar);
-  console.log("main.js: Navbar added to the body");
 
   // Function to set active link
   function setActiveLink() {
@@ -50,5 +46,4 @@ window.addEventListener("DOMContentLoaded", function () {
   }
 
   setActiveLink();
-  console.log("main.js: Active link set");
 });
