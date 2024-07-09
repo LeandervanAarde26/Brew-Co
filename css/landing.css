@@ -1,58 +1,32 @@
-.row-1{
+.section-row{
     background-color: #050B12;
-    height: 70vh;
-    background-image: url("../Assets/taps-1.jpg");
+    height: calc(150vh / 3);
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-content: center;
+}
+
+.section{
+    background-color: #edddc6de;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    height: 100%;
+}
+
+.row-1{  
+    background-image: url("../Assets/taps-1.jpg");
+}
+.row-2{
+    background-image: url("../Assets/Barrels.jpg");
+}
+.row-3{
+    background-image: url("../Assets/Beerglass.jpg");
 }
 
 .sm-color-row{
     background-color: #EDDDC6;
     height: 55vh;
-}
-
-.row-2{
-    background-color: #050B12;
-    height: 60vh;
-    background-image: url("../Assets/Barrels.jpg");
-    background-position: center;
-    background-size: cover;
-}
-
-.row-3{
-    background-color: #050B12;
-    height: 60vh;
-    background-image: url("../Assets/Beerglass.jpg");
-    background-position: center;
-    background-size: cover;
-}
-
-
-
-
-.about,.suggestions,.services{
-    background-color: #edddc6de;
-    padding-left: 10% !important;
-    padding-right: 10% !important;
-}
-
-.about{
-    height: 50vh;
-
-}
-
-.services,.suggestions{
-    height: 60vh;
-}
-
-a{
-    text-decoration: none;
-    /* color: black;
-    transition: 0.2s ; */
-    box-shadow: inset 0 0 0 0 #CF9239;
-    color: black;
-    padding: 10px;
-    transition: color .45s ease-in-out, box-shadow .45s ease-in-out;
 }
 
 a:hover{

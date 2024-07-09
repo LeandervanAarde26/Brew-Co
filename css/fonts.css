@@ -1,45 +1,39 @@
+
+h1,h2,h3,h4,h5{
+    font-family: 'Anton', sans-serif; 
+    font-weight: 350;
+}
 h1{
-    font-family: 'Anton', sans-serif;
-    margin-top: 10%;
-    font-weight: 400;
-    font-size: 42pt;
+    font-size: 32pt;
+}
+h2{
+    font-size: 28pt;
+}
+h3{
+    font-size: 24pt;
+    color: white;
+}
+h4{
+    font-size: 20pt;
+}
+
+h5{
+    font-size: 18pt;
+}
+
+p, select, form, td, li {
+    font-family: 'Outfit', sans-serif; 
+    font-size: 13pt;
+    font-weight: 250;  
 }
 
 .find-brew,.contact{
     color: #CF9239;
 }
 
-
-h2{
-    font-family: 'Anton', sans-serif;
-    margin-top: 10%;
-    font-weight: 400;
-    font-size: 35pt;
-}
-
-.heading{
-    margin-top:  1% 0 !important;
-}
-
-h3{
-    font-family: 'Anton', sans-serif;
-
-    font-weight: 400;
-    font-size: 30pt;
-    color: white;
-}
-
-
-h5{
-    font-family: 'Anton', sans-serif;
-    font-weight: 400;
-    font-size: 22pt;
-}
-
 .submit-btn{
     color: white;
 }
-
 .brew-info{
     color: white;
 }
@@ -47,29 +41,6 @@ h5{
 .location{
     color: white;
 }
-
-p{
-    font-family: 'Outfit', sans-serif;
-    font-size: 13pt;
-}
-
-select, form{
-    font-family: 'Outfit', sans-serif;
-    font-size: 13pt;
-    font-weight: 500;  
-    color: white !important;
-}
-
 .foot-text{
     color: #CF9239 !important;
-}
-
-td{
-    font-family: 'Outfit', sans-serif;
-    font-size: 13pt;
-
-}
-
-.nav-item{
-    font-family: 'Outfit', sans-serif !important;
 }
