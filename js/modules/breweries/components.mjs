@@ -6,7 +6,7 @@ import {
   breweryTypes,
   tableFields,
   tableHeading,
-} from "../../content/BreweryInformation.mjs";
+} from "../../content/brewery.mjs";
 
 export const Header = () => `
 <div class="row header-row">

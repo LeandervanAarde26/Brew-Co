@@ -2,18 +2,13 @@
 
     background-image: url("../Assets/Beer-pur.jpg");
     background-size: cover;
-    background-position: top;
-
+    background-position: top;;
 }
-
-.information-box{
-    height: 46vh;
-    background-color: #CF9239;
-}
-
-.form-row{
-    height: 90vh;
-    background-color: #050B12 ;
+.main{
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../Assets/Beer-pur.jpg");
+    background-position: center;
+    background-size: auto;
+    height: auto;
 }
 
 .form-container{
@@ -21,18 +16,30 @@
     backdrop-filter: blur(12px) !important;
     -webkit-backdrop-filter: blur(12px) !important;
 }
-
-
-.submit{
-    border: 6px solid  #CF9239 ;
+.submit {
+    border: 3px solid #CF9239;
     transition: 0.3s ease-in-out;
-
 }
-
+.submit :nth-child(1){
+    color: white;
+    cursor: pointer;
+}
 .submit:hover{
     transform: scale(1.1);
     background-color: #CF9239;
 }
+.submit:active{
+    transform: scale(0.9);
+    background-color: #CF9239;
+}
+.contact-heading, .contact-body{
+    color: white;
+}
 
-
-
+ input, textarea {
+    outline: none;
+    border: 3px solid  #CF9239 ;
+    color: white;
+    background-color: rgb(54, 53, 53);
+    padding: 5px !important;
+ }

@@ -1,7 +1,10 @@
-import { initializeMap } from "../../../helpers/maps.mjs";
+// import { initializeMap } from "../../../helpers/maps.mjs";
 import { formatBreweriesResponse } from "./helpers.mjs";
 
 export class BreweryService {
+  constructor(mapService) {
+    this.mapService = mapService;
+  }
   changeEvent(listener, element, filter) {
     const breweryTypeElement = document.querySelector(".result-T");
 
@@ -26,7 +29,8 @@ export class BreweryService {
       .then((result) => {
         breweryTypeElement.innerHTML = "";
         formatBreweriesResponse(result);
-        initializeMap(locationArray);
+        this.mapService.initializeMap();
+        // initializeMap(locationArray);
       })
       .catch((error) => {
         console.error("There was a problem with the fetch operation:", error);

@@ -1,17 +1,12 @@
-import { initializeMap } from "../../helpers/maps.mjs";
 import { BreweryService } from "./services/breweryFinder.mjs";
+import { Maps } from "./services/maps.mjs";
 
 export function initialiseSearch() {
-  var locationArray = [];
-  var map;
-  var markers = [];
-  var geocoder = new google.maps.Geocoder();
+  const maps = new Maps();
 
-  google.maps.event.addDomListener(window, "load", () => {
-    initializeMap(locationArray);
-  });
+  maps.init();
 
-  const breweryService = new BreweryService();
+  const breweryService = new BreweryService(maps);
   const searchFields = {
     type: document.querySelector(".brewery-type"),
     state: document.querySelector(".state"),

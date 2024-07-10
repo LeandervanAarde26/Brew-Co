@@ -1,4 +1,5 @@
-import { HomeContent } from "../../content/homeContent.mjs";
+import { Footer } from "../../components/Footer.mjs";
+import { HomeContent } from "../../content/home.mjs";
 import { Section } from "./components.mjs";
 
 window.addEventListener("DOMContentLoaded", function () {
@@ -9,6 +10,8 @@ window.addEventListener("DOMContentLoaded", function () {
     HomeContent.forEach((section, index) => {
       const element = Section({ section, index });
       mainContainer.insertAdjacentHTML("beforeend", element);
+
     });
+    mainContainer.insertAdjacentHTML("beforeend", Footer());
   }
 });
