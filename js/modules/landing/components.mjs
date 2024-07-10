@@ -1,19 +1,6 @@
 import { Logo } from "../../components/Logo.mjs";
-import { HomeContent } from "../../content/homeContent.mjs";
 
-window.addEventListener("DOMContentLoaded", function () {
-  const container = document.querySelector(".main");
-  document.title = "BREW CO | Super Brewery Locator";
-  if (container) {
-    const mainContainer = document.querySelector(".main");
-    HomeContent.forEach((section, index) => {
-      const element = Section({ section, index });
-      mainContainer.insertAdjacentHTML("beforeend", element);
-    });
-  }
-});
-
-const Section = ({ section, index }) => `
+export const Section = ({ section, index }) => `
   <div class="row ${section.rowClass}">
       ${index === 0 ? Logo() : ""}
       <div class="col-6 ${

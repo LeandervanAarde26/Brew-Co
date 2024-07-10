@@ -8,7 +8,6 @@ import {
   tableHeading,
 } from "../../content/BreweryInformation.mjs";
 
-
 export const Header = () => `
 <div class="row header-row">
     <div class="col-12">
@@ -26,7 +25,6 @@ export const Header = () => `
       <p class="text-center mt-4 content-sm">${BreweryInformation.content}</p>
   </div>
 `;
-
 
 export const BreweriesTable = () => {
   const header = tableFields
@@ -58,8 +56,6 @@ export const BreweriesTable = () => {
 };
 
 export const SearchContainer = () => {
-
-
   return `
         <section class="search-container row  ">
             <select class="col-12 col-lg-4 brewery-type mt-4 ms-lg-5" name="Brewery-type">
@@ -82,7 +78,7 @@ export const TableResult = (result) => {
   const { name, street, state, city, brewery_type, website_url } = result;
   return `
       <tr>
-        <td>${name == null ? name : "Unkown"}</td>
+        <td>${name ? name : "Unkown"}</td>
         <td>${city && state ? `${state}: ${city}` : "Unkown"}</td>
         <td class="d-none d-lg-block">${street ? street : "Unkown"}</td>
         <td>${brewery_type ? brewery_type : "Unkown"}</td>
